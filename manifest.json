@@ -2,7 +2,7 @@
     "name": "99NamesOfAllah Content Collected and Designed by Maha ElFeky",
     "short_name": "99NamesOfAllah",
     "start_url": "index.html",
-    "scope": "/",
+    "scope": "./",
     "icons": [{
             "src": "images/btn_menu100.png",
             "sizes": "100x100",
