@@ -1,0 +1,23 @@
+{
+    "name": "99NamesOfAllah",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sw-precache": "sw-precache"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maha-jwa/99-names-of-Allah.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maha-jwa/99-names-of-Allah/issues"
+    },
+    "homepage": "https://github.com/maha-jwa/99-names-of-Allah",
+    "dependencies": {
+        "sw-precache": "^5.2.1"
+    }
+}
