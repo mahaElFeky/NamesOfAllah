@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>أسماء الله الحسنى</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="manifest" href="manifest.json" />
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+    <link rel="icon" href="images/btn_menu100.png" type="image/png" sizes="32x32">
+</head>
+
+<body>
+    <!-- <audio id="ayaSound" src="aya.mp3"></audio> -->
+    <div id="container">
+        <div id="leftSide">
+        </div>
+        <div id="centerSection">
+            <button id="menuBtn" onclick="ShowMenu();"></button>
+            <div id="menu" style="display:none;">
+                <div id="menuBanner">
+                    <p class="aya1">إِنَّ لِلَّهِ تِسْعَةً وَتِسْعِينَ اسْمًا مِائَةً إِلَّا وَاحِدًا مَنْ أَحْصَاهَا دَخَلَ الْجَنَّةَ</p>
+                </div>
+                <div id="menuList">
+                    <button class="grid-item" id="n1" onclick="showContent(this);"> الرَّحْمَٰن</button>
+                    <button class="grid-item" id="n21" onclick="showContent(this);">البَاسِطُ </button>
+                    <button class="grid-item" id="n41" onclick="showContent(this);">الجَلِيلُ</button>
+                    <button class="grid-item" id="n61" onclick="showContent(this);">المُمِيتُ</button>
+                    <button class="grid-item" id="n81" onclick="showContent(this);">العَفُوُّ</button>
+
+
+                    <button class="grid-item" id="n2" onclick="showContent(this);"> الرَّحِيم</button>
+                    <button class="grid-item" id="n22" onclick="showContent(this);">الخَافِضُ</button>
+                    <button class="grid-item" id="n42" onclick="showContent(this);">الكَرِيمُ</button>
+                    <button class="grid-item" id="n62" onclick="showContent(this);">الحَيُّ</button>
+                    <button class="grid-item" id="n82" onclick="showContent(this);">الرَّءُوفُ</button>
+
+
+                    <button class="grid-item" id="n3" onclick="showContent(this);">المَلِكُ </button>
+                    <button class="grid-item" id="n23" onclick="showContent(this);">الرَّافِعُ</button>
+                    <button class="grid-item" id="n43" onclick="showContent(this);">الرَّقِيبُ</button>
+                    <button class="grid-item" id="n63" onclick="showContent(this);">القَيُّومُ</button>
+                    <button class="grid-item" id="n83" onclick="showContent(this);">مَالِكُ المُلْكِ</button>
+
+
+                    <button class="grid-item" id="n4" onclick="showContent(this);"> القُدُّوسُ</button>
+                    <button class="grid-item" id="n24" onclick="showContent(this);">المُعِزُّ</button>
+                    <button class="grid-item" id="n44" onclick="showContent(this);">المُجِيبُ</button>
+                    <button class="grid-item" id="n64" onclick="showContent(this);">الوَاجِدُ</button>
+                    <button class="grid-item" id="n84" onclick="showContent(this);">ذُو الجَلَالِ وَالإِكْرَامِ</button>
+
+
+                    <button class="grid-item" id="n5" onclick="showContent(this);">السَّلَامُ</button>
+                    <button class="grid-item" id="n25" onclick="showContent(this);">المُذِلُّ</button>
+                    <button class="grid-item" id="n45" onclick="showContent(this);">الوَاسِعُ</button>
+                    <button class="grid-item" id="n65" onclick="showContent(this);">المَاجِدُ</button>
+                    <button class="grid-item" id="n85" onclick="showContent(this);"> المُقْسِطُ</button>
+
+
+                    <button class="grid-item" id="n6" onclick="showContent(this);">المُؤْمِنُ </button>
+                    <button class="grid-item" id="n26" onclick="showContent(this);">السَّمِيعُ</button>
+                    <button class="grid-item" id="n46" onclick="showContent(this);">الحَكِيمُ</button>
+                    <button class="grid-item" id="n66" onclick="showContent(this);">الوَاحِدُ</button>
+                    <button class="grid-item" id="n86" onclick="showContent(this);">الجَامِعُ</button>
+
+
+                    <button class="grid-item" id="n7" onclick="showContent(this);"> المُهَيْمِنُ</button>
+                    <button class="grid-item" id="n27" onclick="showContent(this);">البَصِيرُ</button>
+                    <button class="grid-item" id="n47" onclick="showContent(this);">الوَدُودُ</button>
+                    <button class="grid-item" id="n67" onclick="showContent(this);">الصَّمَدُ</button>
+                    <button class="grid-item" id="n87" onclick="showContent(this);">الغَنِيُّ</button>
+
+
+                    <button class="grid-item" id="n8" onclick="showContent(this);"> العَزِيزُ</button>
+                    <button class="grid-item" id="n28" onclick="showContent(this);">الحَكَمُ</button>
+                    <button class="grid-item" id="n48" onclick="showContent(this);">المَجِيدُ</button>
+                    <button class="grid-item" id="n68" onclick="showContent(this);">القَادِرُ</button>
+                    <button class="grid-item" id="n88" onclick="showContent(this);">المُغْنِيُّ</button>
+
+
+                    <button class="grid-item" id="n9" onclick="showContent(this);">الجَبَّارُ </button>
+                    <button class="grid-item" id="n29" onclick="showContent(this);">العَدْلُ</button>
+                    <button class="grid-item" id="n49" onclick="showContent(this);">البَاعِثُ</button>
+                    <button class="grid-item" id="n69" onclick="showContent(this);">المُقْتَدِرُ</button>
+                    <button class="grid-item" id="n89" onclick="showContent(this);">المَانِعُ</button>
+
+
+                    <button class="grid-item" id="n10" onclick="showContent(this);"> المُتَكَبِّرُ</button>
+                    <button class="grid-item" id="n30" onclick="showContent(this);">اللَّطِيفُ</button>
+                    <button class="grid-item" id="n49" onclick="showContent(this);">الشَّهِيدُ</button>
+                    <button class="grid-item" id="n70" onclick="showContent(this);">المُقَدِّمُ</button>
+                    <button class="grid-item" id="n90" onclick="showContent(this);">الضَّارُ</button>
+
+
+                    <button class="grid-item" id="n11" onclick="showContent(this);"> الخَالِقُ</button>
+                    <button class="grid-item" id="n31" onclick="showContent(this);">الخَبِيرُ</button>
+                    <button class="grid-item" id="n51" onclick="showContent(this);">الحَقُّ</button>
+                    <button class="grid-item" id="n71" onclick="showContent(this);">المُؤَخِّرُ</button>
+                    <button class="grid-item" id="n91" onclick="showContent(this);">النَّافِعُ</button>
+
+
+                    <button class="grid-item" id="n12" onclick="showContent(this);">البَارِىءُ</button>
+                    <button class="grid-item" id="n32" onclick="showContent(this);">الحَلِيمُ </button>
+                    <button class="grid-item" id="n52" onclick="showContent(this);">الوَكِيلُ</button>
+                    <button class="grid-item" id="n72" onclick="showContent(this);">الأَوَّلُ</button>
+                    <button class="grid-item" id="n92" onclick="showContent(this);">النُّورُ</button>
+
+
+                    <button class="grid-item" id="n13" onclick="showContent(this);">المُصَوِّرُ</button>
+                    <button class="grid-item" id="n33" onclick="showContent(this);">العَظِيمُ </button>
+                    <button class="grid-item" id="n53" onclick="showContent(this);">القَوِيُّ</button>
+                    <button class="grid-item" id="n73" onclick="showContent(this);">الآخِرُ</button>
+                    <button class="grid-item" id="n93" onclick="showContent(this);">الهَادِي</button>
+
+
+                    <button class="grid-item" id="n14" onclick="showContent(this);">الغَفَّارُ </button>
+                    <button class="grid-item" id="n34" onclick="showContent(this);">الغَفُورُ </button>
+                    <button class="grid-item" id="n54" onclick="showContent(this);">المَتِينُ</button>
+                    <button class="grid-item" id="n74" onclick="showContent(this);">الظَّاهِرُ</button>
+                    <button class="grid-item" id="n94" onclick="showContent(this);">البَدِيعُ</button>
+
+
+                    <button class="grid-item" id="n15" onclick="showContent(this);"> القَهَّارُ</button>
+                    <button class="grid-item" id="n35" onclick="showContent(this);">الشَّكُورُ </button>
+                    <button class="grid-item" id="n55" onclick="showContent(this);">الوَلِيُّ</button>
+                    <button class="grid-item" id="n75" onclick="showContent(this);">البَاطِنُ</button>
+                    <button class="grid-item" id="n95" onclick="showContent(this);">البَاقِي</button>
+
+
+                    <button class="grid-item" id="n16" onclick="showContent(this);"> الوَهَّابُ </button>
+                    <button class="grid-item" id="n36" onclick="showContent(this);">العَلِيُّ </button>
+                    <button class="grid-item" id="n56" onclick="showContent(this);">الحَمِيدُ</button>
+                    <button class="grid-item" id="n76" onclick="showContent(this);">الوَالِي</button>
+                    <button class="grid-item" id="n96" onclick="showContent(this);">الوَارِثُ</button>
+
+
+                    <button class="grid-item" id="n17" onclick="showContent(this);">الرَّزَّاقُ</button>
+                    <button class="grid-item" id="n37" onclick="showContent(this);">الكَبِيرُ</button>
+                    <button class="grid-item" id="n57" onclick="showContent(this);">المُحْصِي</button>
+                    <button class="grid-item" id="n77" onclick="showContent(this);">المُتَعَالِ</button>
+                    <button class="grid-item" id="n97" onclick="showContent(this);">الرَّشِيدُ</button>
+
+
+                    <button class="grid-item" id="n18" onclick="showContent(this);">الفَتَّاحُ </button>
+                    <button class="grid-item" id="n38" onclick="showContent(this);">الحَفِيظُ</button>
+                    <button class="grid-item" id="n58" onclick="showContent(this);">المُبْدِىءُ</button>
+                    <button class="grid-item" id="n78" onclick="showContent(this);">البَرُّ</button>
+                    <button class="grid-item" id="n98" onclick="showContent(this);">الصَّبُورُ</button>
+
+
+                    <button class="grid-item" id="n19" onclick="showContent(this);">العَلِيمُ </button>
+                    <button class="grid-item" id="n39" onclick="showContent(this);">المُقِيتُ</button>
+                    <button class="grid-item" id="n59" onclick="showContent(this);">المُعِيدُ</button>
+                    <button class="grid-item" id="n79" onclick="showContent(this);">التَّوَّابُ</button>
+                    <div class="grid-item"></div>
+
+                    <button class="grid-item" id="n20" onclick="showContent(this);">القَابِضُ</button>
+                    <button class="grid-item" id="n40" onclick="showContent(this);">الحَسِيبُ</button>
+                    <button class="grid-item" id="n60" onclick="showContent(this);">المُحْيِي</button>
+                    <button class="grid-item" id="n80" onclick="showContent(this);">المُنْتَقِمُ </button>
+                    <div class="grid-item"></div>
+                </div>
+                <div id="menuFooter"> <a id="n99" onclick="showContent(this);">أهم مصادر المحتوى </div>
+            </div>
+            <a id="nextBtn" style="display: none;" onclick="nextPage();"></a>
+                    <a id="previousBtn" style="display: none;" onclick="previousPage();"></a>
+                    <div id="pageBackgrnd" style="display: none;">
+                        <section id="sec1" style="display:none;">
+                            <div class="title">
+                                <h1> الرَّحْمَنُ </h1>
+                            </div>
+                            <p class="aya1">﴿قُلِ ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَىٰ﴾</p>
+                            <p class="meaning1">الرحمن هو من عمت رحمته الكائنات كلها فى الدنيا سواء فى ذلك المؤمن والكافر</p>
+                            <p class="meaning2">اى يرحم المؤمن وغير المؤمن فيطعمهم ويسقيهم ويحفظهم </p>
+
+                        </section>
+                        <section id="sec2" style="display: none;">
+                            <h1> الرَّحِيم </h1>
+                            <p class="aya1">﴿ وَكَانَ بِالْمُؤْمِنِينَ رَحِيمًا ﴾</p>
+                            <p class="meaning1">الرحمة التى دل عليها الرحيم رحمة خاصة بالمؤمنين</p>
+                            <p class="meaning2">اى انه فى الاخرة يختص برحمته المؤمنين </p>
+
+                        </section>
+                        <section id="sec3" style="display: none;">
+                            <h1> المَلِكُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1"> ملك الملوك له الملك وهو مالك يوم الدين ومليك الخلق فهو المالك المطلق </p>
+                            <p class="meaning2">المتصرف فى ملكه وأمور عباده كما يشاء</p>
+
+                        </section>
+                        <section id="sec4" style="display: none;">
+                            <h1>القُدُّوسُ</h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1"> القدوس الطاهر المنزه عن العيوب والنقائض </p>
+                            <p class="meaning2">أي: المُقدَّس السالم من كل عيب وآفة ونقص المعظم الممجد لان القدوس يدل على التنزيه من كل نقص والتعظيم لله سبحانه فى أوصافه وجلاله
+
+                            </p>
+
+                        </section>
+                        <section id="sec5" style="display: none;">
+                            <h1> السَّلَامُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1">السلام السالم من العيوب والنقائض الناشر سلامته على خلقه </p>
+                            <div class="footerBar">
+                                <h4>عَنْ عَائِشَةَ رضي الله عنها قَالَتْ كَانَ النَّبِيُّ صَلَّى اللَّه عَلَيْهِ وَسَلَّمَ إِذَا سَلَّمَ لَمْ يَقْعُدْ إِلا مِقْدَارَ مَا يَقُولُ </h4>
+
+                                <p class="more">"اللهم أنت السلام ومنك السلام، تبارَكْتَ ذا الجلال والإكرام" </p>
+
+                            </div>
+                        </section>
+                        <section id="sec6" style="display: none;">
+                            <h1> المُؤْمِنُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <h3>المعنى الاول</h3>
+                            <p class="meaning1">أي المصدق لرسله بإظهار معجزاته عليهم ومصدق المؤمنين ما وعدهم به من الثواب، ومصدق الكافرين ما أوعدهم من العقاب</p>
+                            <h3>المعنى الثانى</h3>
+                            <p class="meaning1">وقيل: المؤمن الذي يؤمن أولياءه من عذابه ويؤمن عباده من ظلمه، يقال: آمنه من الأمان الذي هو ضد الخوف </p>
+                        </section>
+                        <section id="sec7" style="display: none;">
+                            <h1>الْمُهَيْمِنُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1">المسيطر علي كل شئ بكمال قدرته </p>
+
+                            <p class="meaning2">أى: هو الرقيب الحافظ لكل شيء، القائم على خلقه بأعمالهم وأرزاقهم وآجالهم، المسؤول عنهم بالرعاية والوقاية والصيانة.
+
+                            </p>
+                        </section>
+                        <section id="sec8" style="display: none;">
+                            <h1> العَزِيزُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1">هو المنفرد بالعزة -الترفع بالحق-، الظاهر الذي لا يقهر القوي الممتنع فلا يغلبه شيء وهو غالب كل شيء </p>
+                        </section>
+                        <section id="sec9" style="display: none;">
+                            <h1> الجَبَّارُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1">المنفذ مشيأته علي سبيل الاجبار والجبر </p>
+                            <p class="meaning2"> الجبار هو الذي جبر الخلق على ما أراد من أمره ونهيه ويقال هو الذي جبر مفاقر الخلق، وكفاهم أسباب المعاش والرزق </p>
+                        </section>
+                        <section id="sec10" style="display: none;">
+                            <h1> المُتَكَبِّرُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴾</p>
+                            <p class="meaning1">المتفرد بصفات العظمة والكبرياء المتكبر عن النقص والحاجة </p>
+                            <p class="meaning2"> المتكبر أي العظيم ذو الكبرياء والكبرياء هنا هي عبارة عن كمال الذات وكمال الوجود ولا يوصف بها إلا الله تعالى </p>
+                        </section>
+                        <section id="sec11" style="display: none;">
+                            <h1> الخَالِقُ </h1>
+                            <p class="aya1">﴿هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى ﴾</p>
+                            <p class="meaning1">هو الفاطر المبدع لكل شيء، والمقدر له والموجد للأشياء من العدم، فهو خالق كل صانع وصنعته </p>
+                            <p class="meaning2"> اسم الله الخالق هذا اسم عام يشمل جميع الخلق اى كل مخلوقات الله سبحانه وتعالى </p>
+                        </section>
+                        <section id="sec12" style="display: none;">
+                            <h1> البَارِىءُ</h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى ﴾</p>
+                            <p class="meaning1">المُميِّز للمخلوقين حتّى مع اختلاف صورهم </p>
+                            <p class="meaning2"> الذي فصل بعض الخلق عن بعض، أي: ميَّز بعضهم عن بعض اى ميَّز الخلق هذا أبيض وهذا أسود، هذا عربيّ وهذا أعجمي
+                            </p>
+                        </section>
+                        <section id="sec13" style="display: none;">
+                            <h1> المُصَوِّرُ </h1>
+                            <p class="aya1">﴿ هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى ﴾</p>
+                            <p class="meaning1"> الذي اعطي لكل خلق صورة خاصة وهيئة منفردة يتميز بها على اختلافها وكثرتها </p>
+                            <p class="meaning2"> مرحلة التصوير هي المرحلة الثالثة من مراحل الإيجاد بعد الخلق والبرء فبعد تقدير الشيء وإنفاذه في الوجود تأتي مرحلة إضفاء الملامح والسمات التي يتميز بها كل مخلوق عن غيره </p>
+                        </section>
+                        <section id="sec14" style="display: none;">
+                            <h1> الغَفَّارُ </h1>
+                            <p class="aya1">﴿ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الْعَزِيزُ الْغَفَّارُ ﴾</p>
+                            <p class="meaning1"> هو وحده الذى يغفر الذنوب ويستر القبيح في الدنيا، ويتجاوز عنه في الاخرة </p>
+                            <p class="meaning2"> الغفور و الغفار قريبان في المعنى من بعضهما، لكن الغفار أبلغ من الغفور، الغفور من يغفر الذنوب العظام، أما "الغفار" من يغفر الذنوب الكثيرة</p>
+                        </section>
+                        <section id="sec15" style="display: none;">
+                            <h1> القَهَّارُ </h1>
+                            <p class="aya1">﴿لِمَنِ الْمُلْكُ الْيَوْمَ لِلَّهِ الْوَاحِدِ الْقَهَّارِ﴾</p>
+                            <p class="meaning1"> هو الغالب الذي يقهر الجبابرة بسلطانه وقدرته </p>
+                            <p class="meaning2"> وهو مشتق من القهر, والقهار هو الذي لا موجود إلا وهو مسخر تحت قهره وقدرته عاجز في قبضته</p>
+                        </section>
+                        <section id="sec16" style="display: none;">
+                            <h1> الوَهَّابُ</h1>
+                            <p class="aya1">﴿قَالَ رَبِّ اغْفِرْ لِي وَهَبْ لِي مُلْكاً لَّا يَنبَغِي لِأَحَدٍ مِّنْ بَعْدِي إِنَّكَ أَنتَ الْوَهَّابُ ﴾</p>
+                            <p class="meaning1"> المتفضل بالعطايا المنعم على العباد، الذي يهب بغير عوض ويعطي الحاجة بغير سؤال، كثير النعم، دائم العطاء.
+                            </p>
+                            <p class="meaning2"> ويقتضي ذلك لا شك حمد الله تعالى على هباته وتقتضي كذلك الزُهد، هل رأيت هبة من هبات الدنيا قد بقيت لصاحبها؟ فليعلم كل من وهبه الله تعالى شيئا من الدنيا أنه زائل وأنه لابد أن يذهب عنه، فلا ينشغل بالنعمة عن المنعم
+                            </p>
+                            <p class="meaning2">وكذلك يقتضي الرضا بما يهبه الله سبحانه وتعالى له والصبر إذا ضاعت هذه النعم والهبات</p>
+                            <div class="footerBar">
+                                <h4>لذا تواصوا بهذا الدعاء </h4>
+                                <p class="more">﴿رَبَّنَا لاَ تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً إِنَّكَ أَنتَ الْوَهَّابُ﴾ </p>
+                            </div>
+                        </section>
+                        <section id="sec17" style="display: none;">
+                            <h1> الرَّزَّاقُ </h1>
+                            <p class="aya1">﴿ إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ﴾</p>
+                            <p class="meaning1"> خالق الارزاق، والمتكفل بإصالها لخلقه اجمعين </p>
+                            <p class="meaning2"> و الرزق في اللغة هو النصيب والقسمة فما قُسم لنا هو رزق كما بين سبحانه أن أرزاق الخلائق مقدر منذ الأزل وأنه قدرها تقديرا دقيقا لا يظلم معه أحد فقال</p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿وَقَدَّرَ فِيهَا أَقْوَاتَهَا في أَرْبَعَةِ أَيَّامٍ سَوَاءً لِّلسَّائِلِينَ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec18" style="display: none;">
+                            <h1> الفَتَّاحُ </h1>
+                            <p class="aya1">﴿ قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِالْحَقِّ وَهُوَ الْفَتَّاحُ الْعَلِيمُ﴾</p>
+                            <p class="meaning1">هو الذي يَفتَحُ على خَلقِهِ ما انغلَقَ عليهم من أمورِهِم فيُيَسّرُها لهم فَضلاً منه وكَرَمًا </p>
+                            <p class="meaning2"> الفتاح" في اللغة الذي يفتح، يعني يحكم، يفتح أبواب الحق" و"الفتاح" الحاكم، ومن معاني "الفتاح" أيضاً الذي يفتح أبواب الخير </p>
+                        </section>
+                        <section id="sec19" style="display: none;">
+                            <h1> العَلِيمُ</h1>
+                            <p class="aya1">﴿قَالُوا سُبْحَانَكَ لَا عِلْمَ لَنَا إِلَّا مَا عَلَّمْتَنَا إِنَّكَ أَنْتَ الْعَلِيمُ الْحَكِيمُ ﴾</p>
+                            <p class="meaning1">هو العليم المحيط علمه كل شئ</p>
+                            <p class="meaning2"> فهو الذي يعلم تفاصيل الأمور، ودقائق الأشياء وخفايا الضمائر، والنفوس، لا يغرب عن ملكه مثقال ذرة فعلمه يحيط بجميع الأشياء </p>
+                        </section>
+                        <section id="sec20" style="display: none;">
+                            <h1> القَابِضُ </h1>
+                            <p class="aya1">﴿وَاللّهُ يَقْبِضُ وَيَبْسُطُ وَإِلَيْهِ تُرْجَعُونَ﴾</p>
+                            <p class="meaning1"> يقبض الرزق عمن يشاء من الخلق بعدله </p>
+                            <h3>القابض - الباسط</h3>
+                            <h3>تجدر الإشارة إلى ضرورة الجمع بين الأسماء المتقابلة لله -تعالى وذلك لأنّ ذكر واحدٍ منها فيه نوع من النقص الذي لا يكتمل إلّا بذكر الآخر</h3>
+                            <p class="meaning2"> فالقبض هو التضييق والبسط هو التوسيع والنشر فالله يقبض ويبسط أي يسلب تارة ويعطي تارة أو يسلب تارة و يسلب قوماً ويعطي قوماً أو يجمع مرة ويفرق أخرى أو يميت ويحيي </p>
+                        </section>
+                        <section id="sec21" style="display: none;">
+                            <h1> البَاسِطُ</h1>
+                            <p class="aya1">﴿وَاللّهُ يَقْبِضُ وَيَبْسُطُ وَإِلَيْهِ تُرْجَعُونَ﴾</p>
+                            <p class="meaning1"> الذى يوسع الرزق لمن يشاء من عباده بجوده ورحمته </p>
+                            <h3>القابض - الباسط</h3>
+                            <h3>تجدر الإشارة إلى ضرورة الجمع بين الأسماء المتقابلة لله -تعالى وذلك لأنّ ذكر واحدٍ منها فيه نوع من النقص الذي لا يكتمل إلّا بذكر الآخر</h3>
+                            <p class="meaning2"> فالقبض هو التضييق والبسط هو التوسيع والنشر فالله يقبض ويبسط أي يسلب تارة ويعطي تارة أو يسلب تارة و يسلب قوماً ويعطي قوماً أو يجمع مرة ويفرق أخرى أو يميت ويحيي </p>
+                        </section>
+                        <section id="sec22" style="display: none;">
+                            <h1> الخَافِضُ </h1>
+                            <p class="aya1 smFont">لم يرد بالقرآن ولكن معناه صحيح بشرط ان يقرن بأسم الرافع</p>
+                            <p class="aya1">﴿إِذَا وَقَعَتِ الْوَاقِعَةُ، لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ، خَافِضَةٌ رَافِعَةٌ﴾</p>
+                            <p class="meaning1">الذي يخفض بالإذلال من تَعاظَم وتكبَّر وشمخ بِأنفِه وتجَبَّر، يخفضُ أقواماً ويخفض الباطل </p>
+                            <h3>الخافض - الرافع</h3>
+                            <h3>تجدر الإشارة إلى ضرورة الجمع بين الأسماء المتقابلة لله -تعالى وذلك لأنّ ذكر واحدٍ منها فيه نوع من النقص الذي لا يكتمل إلّا بذكر الآخر</h3>
+                            <p class="meaning2"> يخفض الكفار بالإشقاء والإبعاد , ويرفع أولياءه بالتقرب والإسعاد ويداول الأيام بين عباده , فيخفض أقواما , يخمل شأنهم ويذهب عزهم , ويرفع آخرين فيورثهم ملكهم وديارهم </p>
+                        </section>
+                        <section id="sec23" style="display: none;">
+                            <h1>الرَّافِعُ</h1>
+                            <p class="aya1 smFont">لم يرد في القرآن الكريم صريحا بل ورد كفعل او صفة</p>
+                            <p class="aya1">﴿يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنْكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ﴾</p>
+                            <p class="meaning1"> الذي رفع أولياءه بالطاعة فيعلي مراتبهم وينصرهم على أعدائه ويجعل العاقبة لهم ، لا يعلو إلا من رفعه الله </p>
+                            <h3>الخافض - الرافع»</h3>
+                            <h3>تجدر الإشارة إلى ضرورة الجمع بين الأسماء المتقابلة لله -تعالى وذلك لأنّ ذكر واحدٍ منها فيه نوع من النقص الذي لا يكتمل إلّا بذكر الآخر</h3>
+                            <p class="meaning2"> يخفض الكفار بالإشقاء والإبعاد , ويرفع أولياءه بالتقرب والإسعاد ويداول الأيام بين عباده , فيخفض أقواما , يخمل شأنهم ويذهب عزهم , ويرفع آخرين فيورثهم ملكهم وديارهم </p>
+                        </section>
+                        <section id="sec24" style="display: none;">
+                            <h1> المُعِزُّ </h1>
+                            <p class="aya1 smFont">لم يورد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1">﴿ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ﴾</p>
+                            <p class="meaning1">من أعزّ بالطاعة أولياءه، وأظهرهم على أعدائهم في الدنيا وأحلّهم دار الكرامة في العقبى</p>
+                            <h3>المعز - المذل</h3>
+                            <h3>تجدر الإشارة إلى ضرورة الجمع بين الأسماء المتقابلة لله -تعالى وذلك لأنّ ذكر واحدٍ منها فيه نوع من النقص الذي لا يكتمل إلّا بذكر الآخر</h3>
+                            <p class="meaning2">إذا أراد الله ـ عز وجل ـ إعزاز عبده قربه من بساطه وأهله لمناجاته وإذا أراد الله إذلال عبده ربطه بشهواته وحال بينه وبين قربه ومخاطباته الإعزاز والإذلال يكونان في الدنيا والآخرة</p>
+                        </section>
+                        <section id="sec25" style="display: none;">
+                            <h1> المُذِلُّ</h1>
+                            <p class="aya1 smFont">لم يورد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1">﴿ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ﴾</p>
+                            <p class="meaning1">هو من أذلّ أهل الكفر في الدنيا بالرِّق وبالجزية والصغار وفي الآخرة الخلود في النار</p>
+                            <h3>المعز - المذل»</h3>
+                            <h3>تجدر الإشارة إلى ضرورة الجمع بين الأسماء المتقابلة لله -تعالى وذلك لأنّ ذكر واحدٍ منها فيه نوع من النقص الذي لا يكتمل إلّا بذكر الآخر</h3>
+                            <p class="meaning2">إذا أراد الله ـ عز وجل ـ إعزاز عبده قربه من بساطه وأهله لمناجاته وإذا أراد الله إذلال عبده ربطه بشهواته وحال بينه وبين قربه ومخاطباته الإعزاز والإذلال يكونان في الدنيا والآخرة</p>
+                        </section>
+                        <section id="sec26" style="display: none;">
+                            <h1> السَّمِيعُ</h1>
+                            <p class="aya1">﴿لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ ﴾</p>
+                            <p class="meaning1">هو السَّامعُ للسِّر والنَّجوى بلا كيفٍ ولا آلة ولا جارحةٍ، وهو سميعُ الدعاءِ </p>
+                            <p class="meaning2"> أي لا يعزُب عن إدراكه مسموع وإن خفي قد يكون صوتاً في النفس، قد يكون حديث النفس للنفس قد يكون خاطرة تَرِدُ على الخاطر، قد يكون تساؤلاً يرد على الفكرتساؤلاً خاطراً، أي شيء يخفى على الناس لا يخفى على الله</p>
+                        </section>
+                        <section id="sec27" style="display: none;">
+                            <h1> البَصِيرُ </h1>
+                            <p class="aya1">﴿ لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ ﴾</p>
+                            <p class="meaning1">هو الذي يبصر جميع الموجودات في عالم الغيب والشهادة، الذي يرى الأشياء كلها ظهرت أو خفيت، دقت أو عظمت، وهو الذي يبصر خائنة الأعين وما تخفى الصدور
+                            </p>
+                            <p class="meaning1">على هذا يكون للبصير معنيان: الأول: أن له بصرٌ يرى به كل شيء سبحانه وتعالى. الثاني: أنه ذو البصيرة بالأشياء، الخبير بها
+                            </p>
+                            <p class="meaning2"> صفة تنكشف بها كمالات نعوت الأشياء بصير يعلم كل شيء يبصر كل شيء، ظاهره وباطنه وخلفيته وما ينطوي عليه والبصر نفاذ الحقيقة في القلب، والبصيرة قوة القلب المدركة للحقائق </p>
+                            <div class="footerBar">
+                                <h4>وقد ورد هذا الدعاء عن النبي صلى الله عليه وسلم</h4>
+                                <p class="more"> اللهم أرنا الحق حقاً وارزقنا اتباعه، وأرنا الباطل باطلاً وارزقنا اجتنابه</p>
+                            </div>
+                        </section>
+                        <section id="sec28" style="display: none;">
+                            <h1> الحَكَمُ </h1>
+                            <p class="aya1">﴿وَاتَّبِعْ مَا يُوحَى إِلَيْكَ وَاصْبِرْ حَتَّى يَحْكُمَ اللَّهُ وَهُوَ خَيْرُ الْحَاكِمِينَ ﴾</p>
+                            <p class="meaning1">صاحب الفصل بين الحقِّ والباطل هو الحاكم المحكَّم، والقاضي المسلَّم، لا رادَّ لقضائه ولا معقِّب لحكمه</p>
+                            <p class="meaning2"> فالحكم ؛ هو النافذ حكمه، الذي لا رادَّ لقضائه، ولا معقِّب لحكمه، والذي يفصل بين الحقِّ والباطل</p>
+                        </section>
+                        <section id="sec29" style="display: none;">
+                            <h1>العَدْلُ </h1>
+                            <p class="aya1 smFont">لم يرد إطلاقه اسما لله تعالى في القرآن ولكن ورد في الحديث</p>
+                            <p class="aya1">﴿إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ ﴾</p>
+                            <p class="meaning1">هو المنزَّهُ عن الظُّلمِ والجَوْر الذى ليس فى ملكه خلل </p>
+                            <p class="meaning2">فالله عز وجل عدل في خلقه، وعدل في أمره، وعدل في فعله</p>
+                        </section>
+                        <section id="sec30" style="display: none;">
+                            <h1> اللَّطِيفُ </h1>
+                            <p class="aya1">﴿لَا تُدْرِكُهُ الْأَبْصَارُ وَهُوَ يُدْرِكُ الْأَبْصَارَ وَهُوَ اللَّطِيفُ الْخَبِيرُ ﴾</p>
+                            <p class="meaning1">هو المحسِن إلى عبادِه في خَفاءٍ وسترٍ من حيث لا يحتسِبون </p>
+                            <p class="meaning2">اللطيف هو الميسر لكل عسير و الجابر لكل كسير و اللطيف من وفق للعمل في الابتداء و ختمه بالقبول في الانتهاء و هو الذي ولي فستر و أعطى فأغنى وانعم فأجزل وأعطى فأجمل</p>
+                        </section>
+                        <section id="sec31" style="display: none;">
+                            <h1> الخَبِيرُ </h1>
+                            <p class="aya1">﴿لَا تُدْرِكُهُ الْأَبْصَارُ وَهُوَ يُدْرِكُ الْأَبْصَارَ وَهُوَ اللَّطِيفُ الْخَبِيرُ﴾</p>
+                            <p class="meaning1">العليم ذو الخبرة التامة العالم بكنه الأشياء وحقائقها</p>
+                            <p class="meaning2">الخبير هو الذي لا تغرب عنه الأخبار الباطنة، ولا يجري في الملك والملكوت شيء إلا بعلمه، ولا تتحرك ذرة ولا تسكن إلا بعلمه ولا تضطرب نفس ولا تطمئن إلا بعلمه</p>
+                            <p class="meaning2">الخبرة أبلغ من العلم لأنها علم وزيادة، فالخبير بالشيء من علمه وقام بمعالجته وبيّن خصائصه وجربه وامتحنه فأحاط بتفاصيله الدقيقة وألمّ بخصائصه اللصيقة ووصفه على حقيقته </p>
+                        </section>
+                        <section id="sec32" style="display: none;">
+                            <h1>الحَلِيمُ </h1>
+                            <p class="aya1">﴿ قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ يَتْبَعُهَا أَذًى وَاللَّهُ غَنِيٌّ حَلِيمٌ ﴾</p>
+                            <p class="meaning1">الصبور على عباده المتصف بالحلم يتمهل ، ولا يتعجل بالانتقام </p>
+                            <p class="meaning2"> الحليم الذي لا يعجل بالعقوبة، والانتقام، ولا يحبس عن عباده بذنوبهم الفضل والإنعام، بل يرزق العاصي كما يرزق المطيع وإن كان بينهما تفاضل على مقتضى الحكمة </p>
+                        </section>
+                        <section id="sec33" style="display: none;">
+                            <h1> العَظِيمُ </h1>
+                            <p class="aya1">﴿ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَلِيُّ الْعَظِيمُ ﴾</p>
+                            <p class="meaning1">البالغ أقصى مراتب العظمة والجلال والكمال</p>
+                            <p class="meaning2"> الله جلّ جلاله عظيم أي أن قدره جاوز حدود العقل الله الذي له منتهى العظمة ومطلقها فهو عظيم في ذاته، عظيم في صفاته، عظيم في أفعاله عظيم في علمه، عظيم في قدرته، عظيم في قهره، عظيم في سلطانه
+                            </p>
+                            <div class="footerBar">
+                                <h4>ويقال في "العظمة" ما قيل في "العلو" ؛ فهو تعالى العظيم ذاتًا وقدرًا وقهرًا اقترانُ هذين الاسمين في كلمات الذكر في الصَّلاة </h4>
+                                <p class="more">﴿ فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec34" style="display: none;">
+                            <h1>الغَفُورُ </h1>
+                            <p class="aya1">﴿ وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ ﴾</p>
+                            <p class="meaning1"> كثير المغفرة الذي يستر العيوب ويستر الذنوب </p>
+                            <p class="meaning2"> الغفور و الغفار قريبان في المعنى من بعضهما، لكن الغفارأبلغ من الغفور، الغفور من يغفر الذنوب العظام، أما "الغفار" من يغفر الذنوب الكثيرة </p>
+                        </section>
+                        <section id="sec35" style="display: none;">
+                            <h1> الشَّكُورُ </h1>
+                            <p class="aya1">﴿ وَقَالُوا الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنَّا الْحَزَنَ إِنَّ رَبَّنَا لَغَفُورٌ شَكُورٌ ﴾</p>
+                            <p class="meaning1"> بمعنى المشكور </p>
+                            <p class="meaning2"> و شكر الله -تعالى- هو مقابلة فعله بالثناء عليه، وقبول نعمه والاعتراف بها على سبيل الخضوع، أو الاعتراف بالتقصير في شكر نعمه، ولا بدّ من الإشارة إلى أنّ النعم تزيد وتدوم بالشكر
+                            </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ لَئِن شَكَرتُم لَأَزيدَنَّكُم ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec36" style="display: none;">
+                            <h1> العَلِيُّ </h1>
+                            <p class="aya1">﴿ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَلِيُّ الْعَظِيمُ ﴾</p>
+                            <p class="meaning1">الله الذي يعلو بذاته وصفاته وأسماءه عن خلقه </p>
+                            <p class="meaning2"> العلي: تعطي صفة العلو بكل المعانى ، علو الذات وعلو القد وعلو القهر
+                            </p>
+                            <p class="meaning2"> الأعلى: فيه معنى المفاضلة، بمعنى أن له العلو ولا أحد ولا شىء يعلوه
+                            </p>
+                            <div class="footerBar">
+                                <h4>ويقال في "العظمة" ما قيل في "العلو" ؛ فهو تعالى العظيم ذاتًا وقدرًا وقهرًا اقترانُ هذين الاسمين في كلمات الذكر في الصَّلاة </h4>
+                                <p class="more">﴿ سَبِّحِ اسْمَ رَبِّكَ الأَعْلَ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec37" style="display: none;">
+                            <h1> الكَبِيرُ </h1>
+                            <p class="aya1">﴿ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْكَبِيرُ الْمُتَعَالِ ﴾</p>
+                            <p class="meaning1">المُنزَّه عن الوهم والنقائص لا تستطيع الحواس والعقول إدراكه </p>
+                            <p class="meaning2"> يتقارب مع اسم العظيم بالمعنى ويشهد بذلك اقتراب معنيي العظيم والكبير" اقترانهما بـ"العلي" والذكر فى الصلاة </p>
+                            <div class="footerBar">
+                                <h4> سبحان ربي العظيم - سبحان ربي الأعلى -الله أكبر</h4>
+                                <p class="more">﴿ وَأَقِمِ الصَّلَاةَ إِنَّ الصَّلَاةَ تَنْهَى عَنِ الْفَحْشَاءِ وَالْمُنْكَرِ وَلَذِكْرُ اللَّهِ أَكْبَرُ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec38" style="display: none;">
+                            <h1> الحَفِيظُ </h1>
+                            <p class="aya1">﴿ فَاللَّهُ خَيْرٌ حَافِظاً وَهُوَ أَرْحَمُ الرَّاحِمِينَ ﴾</p>
+                            <p class="meaning1"> يحفظ عباده والكون من الخلل والاضطراب ويحفظ أعمال العباد للحساب </p>
+                            <p class="meaning2"> يحفظ أعمال المكلفين عنده ويحفظ من يشاء من الشر، والأذى والبلاء و "الحفيظ" هو الذي يحفظ أهل الإيمان والتوحيد، ويعصمهم من الهوىوشبهات الشيطان، ويحول بين المرء وقلبه من الوقوع بالعصيان.
+                            </p>
+                        </section>
+                        <section id="sec39" style="display: none;">
+                            <h1> المُقِيتُ </h1>
+                            <p class="aya1">﴿ وَكَانَ اللَّهُ عَلَى كُلِّ شَيْءٍ مُقِيتاً﴾</p>
+                            <p class="meaning1"> الذي خلق الأقوات وساقها إلى العباد وتكفل بإيصالها إلى العباد، هو حفيظ عليها.</p>
+                            <p class="meaning2"> فالمُقيت هو الذي يتكفّل بأقوات الخلق فيعطي كلّ إنسان وحيوان قوته بما يجعله قواماً له إلى أن يشاء </p>
+                        </section>
+                        <section id="sec40" style="display: none;">
+                            <h1> الحَسِيبُ </h1>
+                            <p class="aya1">﴿ وَكَفَى بِاللَّهِ حَسِيباً ﴾</p>
+                            <p class="meaning1"> يكفي عباده ويحاسبهم </p>
+                            <p class="meaning2"> "الحسيب" الكافي، يعلم، ويرزق، ويكفى وهو الذي من كان له كان حسبه </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec41" style="display: none;">
+                            <h1>الجَلِيلُ </h1>
+                            <p class="aya1 smFont"> اسم الجليل لم يرِد في القرآن الكريم، لكن مادته وردت</p>
+                            <p class="aya1">﴿تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ ﴾</p>
+                            <p class="meaning1"> الذي يَعظُم قدره لكماله وجلاله </p>
+                            <p class="meaning2"> الجليل: هو الموصوف بِنُعوت الجلال -ونعوت الجلال الغِنى، والمُلك، والتقديس، والعلم، والقدرة </p>
+                        </section>
+                        <section id="sec42" style="display: none;">
+                            <h1> الكَرِيمُ </h1>
+                            <p class="aya1">﴿ يَا أَيُّهَا الْإِنْسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ * الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ﴾</p>
+                            <p class="meaning1"> الكريم كثير الإحسان من دون سؤال </p>
+                            <p class="meaning2"> و "الكريم" هو الجواد المعطي، الذي لا ينفذ عطاؤه، ولا ينقطع سخاؤه الذي يعطي ما يشاء لمن يشاء، إذا أعطى أدهش، وكيف يشاء بسؤال وبغير سؤال، هو الذي لا يمنّ إذا أعطى، فيكبر العطية بالمن.</p>
+                            <div class="footerBar">
+                                <h4>عن عائشة قالت: قلت: "يا رسول الله، أرأيت إن علمت أي ليلة ليلة القدر ما أقول فيها؟ قال
+                                </h4>
+                                <p class="more">"قولي: اللهم إنك عفو كريم تحب العفو فاعف عني"
+                                </p>
+                            </div>
+                        </section>
+                        <section id="sec43" style="display: none;">
+                            <h1> الرَّقِيبُ </h1>
+                            <p class="aya1">﴿ وَكَانَ اللَّهُ عَلَى كُلِّ شَيْءٍ رَقِيباً﴾</p>
+                            <p class="meaning1"> الذي يطّلع على كل ما تُخفيه الأنفس </p>
+                            <p class="meaning2">هو الذي يرى أحوال العباد ان تكلمت فهو يسمعك وهو رقيب عليك وإن تحركت فهو يراك وهو رقيب عليك، وإن أضمرت فهو يعلم وهو رقيب عليك، لا تخفى عليه خافية.</p>
+                        </section>
+                        <section id="sec44" style="display: none;">
+                            <h1> المُجِيبُ </h1>
+                            <p class="aya1">﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَان﴾</p>
+                            <p class="meaning1"> مجيبٌ لدعاء عباده </p>
+                            <p class="meaning2">فهو يجيب المضطر ويُغيث الملهوف ويُقابل الدعاء بالإجابة ويقابل حاجة المضطر بالكفاية، كما أنّه يُنعم ويتفضّل قبل النداء والدعاء </p>
+                        </section>
+                        <section id="sec45" style="display: none;">
+                            <h1> الوَاسِعُ </h1>
+                            <p class="aya1">﴿ وَلِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ إِنَّ اللَّهَ وَاسِعٌ عَلِيمٌ ﴾</p>
+                            <p class="meaning1"> الذي وسع كرسيه السماوات والأرض هو المطلق و ما سوى الله محدود </p>
+                            <p class="meaning2">هو الذي لا حدود لمدلول أسمائه وصفاته فهو الرحيم بلا حدود والكريم بلا حدود والعليم بلا حدود واسع فى علمه وواسع فى قدرته وواسع فى رحمته وواسع فى كرمه وواسع فى مغفرته و فى كل صفاته </p>
+                        </section>
+                        <section id="sec46" style="display: none;">
+                            <h1>الحَكِيمُ </h1>
+                            <p class="aya1">﴿ لَا إِلَهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ ﴾</p>
+                            <p class="meaning1"> المدبر بحكمة عليا المدقق في الأمور، المتقن لها</p>
+                            <p class="meaning2">الله الذي له الحكمة العليا في خلقه وأمره ولا يُشاركه أحدٌ في أحكامه فهو لا يشرّع ولا يخلق أي شيئ عبثاً أو سدى
+                            </p>
+                        </section>
+                        <section id="sec47" style="display: none;">
+                            <h1> الوَدُودُ </h1>
+                            <p class="aya1">﴿ إِنَّ الَّذِينَ آَمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَيَجْعَلُ لَهُمُ الرَّحْمَنُ وُدّاً ﴾</p>
+                            <p class="meaning1">المُحبّ لخلقه بالثناء عليهم والإحسان إليهم </p>
+                            <p class="meaning2">فالله عز وجل يتودد إلى عباده، أي يحبهم، ويحفظهم، وينصرهم، ويؤيدهم، ويوفقهم، وأن الله سبحانه وتعالى يحبه عباده، فيعبدونه، ويطيعونه </p>
+                            <p class="meaning2"> اسم "الودود" أقرب اسم إلى قلب الإنسان، هفو يخطب ودك بهذه النعم، وينبغي أن تخطب وده بالطاعة وخدمة عباده</p>
+                        </section>
+                        <section id="sec48" style="display: none;">
+                            <h1>المَجِيدُ</h1>
+                            <p class="aya1">﴿ ذُو الْعَرْشِ الْمَجِيدُ * فَعَّالٌ لِمَا يُرِيدُ ﴾</p>
+                            <p class="meaning1">المجيد وصف جامع لكل أنواع العلو التي يتصف بها الله عز وجل</p>
+                            <p class="meaning2">المَجد وهو نيل الشرف، وأمجده ومجّده يعني عظّمه وأثنى عليه فالمجيد هو الكريم المفضال الذي يُتَمَجَّدُ بأفعاله وعظمته</p>
+                        </section>
+                        <section id="sec49" style="display: none;">
+                            <h1> البَاعِثُ </h1>
+                            <p class="aya1 smFont">ً ورد هذا الاسم في أحاديث رسول الله صلَّى الله عليه وسلَّم الصحيحة</p>
+                            <p class="aya1">﴿وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَسُولاً ﴾</p>
+                            <p class="meaning1">باعث الرسل إلى الناس وباعث الموتى من القبور وباعث الحياة كلها</p>
+                            <div class="footerBar">
+                                <h4>كان رسول الله صلى الله عليه وسلّم </h4>
+                                <p class="more"> يضع عند النوم يده اليمنى تحت خدِّه الأيمن ثم يقول </p>
+                                <p class="more">اللهم قني عذابك يوم تبعث عبادك </p>
+                                <p class="more">وكان يقول عند الاستقاظ</p>
+                                <p class="more">الحمد لله الذي أحيانا بعد ما أماتنا وإليه النشور</p>
+                            </div>
+                        </section>
+                        <section id="sec50" style="display: none;">
+                            <h1> الشَّهِيدُ </h1>
+                            <p class="aya1">﴿أَوَلَمْ يَكْفِ بِرَبِّكَ أَنَّهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ ﴾</p>
+                            <p class="meaning1">انه الله الشهيد الرقيب على كل الاشياء وكل عباده بما يعملوه، فالشهيد والرقيب اسمان لله مترادفان</p>
+                            <p class="meaning2">والله عز وجل لما كانت الأشياء لا تخفى عليه كان شاهداً وشهيداً ، أي عالماً بها وبحقائقها علم المشاهد لها لأنه لا تخفى عليه خافية . كما أنه سبحانه الشاهد للمظلوم الذي لا شاهد له ، ولا ناصر على الظالم المعتدي الذي لا مانع له في
+                                الدنيا لينتصف له منه</p>
+                        </section>
+                        <section id="sec51" style="display: none;">
+                            <h1> الحَقُّ </h1>
+                            <p class="aya1">﴿فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ﴾</p>
+                            <p class="meaning1">الحق هو الموجود حقيقة، المتحقق وجوده وإلوهيته والحق ضد الباطل</p>
+                            <p class="meaning2">هو الحق الموجود وجودًا دائمًا ثابتًا مستمرًّا كاملاً ليس فيه نقص أبداً، فعبادته هي الحق، وقوله حق، وفعله، حق، ولقاؤه حق، ورسله حق، وكتبه حق، ودينه هو الحق، وكل شيء ينسب إليه -سبحانه- فهو حق, والله -سبحانه- هو الحق الذي يقضي
+                                بالحق ويحَكَمٌ بالعدل
+                            </p>
+                            <div class="footerBar">
+                                <h4>ورد في الحديث أن النبي -صلى الله عليه وسلم- كان يقول في تهجده مثنياً على ربه -سبحانه-: </h4>
+                                <p class="more">أنت الحق، ووعدك حق، ولقاؤك حق، وقولك حق، والجنة حق، والنار حق، والنبيون حق، ومحمد -صلى الله عليه وسلم- حق والساعة حق</p>
+                            </div>
+                        </section>
+                        <section id="sec52" style="display: none;">
+                            <h1> الوَكِيلُ </h1>
+                            <p class="aya1"> ﴿رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ لَا إِلَهَ إِلَّا هُوَ فَاتَّخِذْهُ وَكِيلًا﴾</p>
+                            <p class="meaning1">هو الكفيل بأرزاق العباد ومصالحهم، الذي يتصرف لغيره لعجز موكله</p>
+                            <p class="meaning2">الوكيل المتولي لتدبير خلقه بعلمه وكمال قدرته وشمول حكمته، والذي تولى أولياءه، فيسرهم لليسرى، وجنبهم العسرى، كفاهم الأمور، فمن اتخذه وكيلاً كفاه
+                            </p>
+                            <p class="meaning2">توكل المؤمنين على الله لا يكون تواكل فسيدنا عمر سأل جماعة من الناس قال لهم : من أنتم ؟ قال : نحن المتوكلون ، قال لهم : كذبتم ، المتوكل من ألقى حبة في الأرض ثم توكل على الله " وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ " </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿الَّذِينَ قَالَ لَهُمُ النَّاسُ إِنَّ النَّاسَ قَدْ جَمَعُوا لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمْ إِيمَاناً وَقَالُوا حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec53" style="display: none;">
+                            <h1> القَوِيُّ</h1>
+                            <p class="aya1"> ﴿مَا قَدَرُوا اللَّهَ حَقَّ قَدْرِهِ إِنَّ اللَّهَ لَقَوِيٌّ عَزِيزٌ﴾</p>
+                            <p class="meaning1">موصوف بالقوة المطلقة لا يغلبه غالب، قوي في فعله قادر على إتمامه ، قوي في بطشه لا يعتريه ضعف أو قصور،</p>
+                            <p class="meaning2">مؤمن يعلم علم اليقين أن أصل الجمال ، وأصل الكمال ، وأصل النوال ، هو الله ، تعلق بالأصل وترك الفرع ، بينما غير المؤمن تعلق بالفروع ، تعلق بكائن قوي ، ونسي قوة الله ، تعلق بكائن جميل الصورة ، ونسي جمال الله
+                            </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَاداً يُحِبُّونَهُمْ كَحُبِّ اللَّهِ وَالَّذِينَ آَمَنُوا أَشَدُّ حُبّاً لِلَّهِ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec54" style="display: none;">
+                            <h1> الْمَتِينُ</h1>
+                            <p class="aya1"> ﴿إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ ﴾</p>
+                            <p class="meaning1">الشديد القوي الذي لا تنقطع قوته ولا تلحقه في أفعاله مشقة، ولا يمسه لغوب، ذو الاقتدار الشديد</p>
+                            <p class="meaning2">الكامل القوة ، الذي بلغت قدرته أقصى الغايات ، ولا يعجزه شيء لا في الأرض ولا في السماوات ، قوة ثابتة ، قوة مستمرة ، قوة ممتدة ، في أي مكان ، في أي زمان ، في أي عصر </p>
+                        </section>
+                        <section id="sec55" style="display: none;">
+                            <h1> الْوَلِيُّ</h1>
+                            <p class="aya1"> ﴿ وَهُوَ الَّذِي يُنَزِّلُ الْغَيْثَ مِنْ بَعْدِ مَا قَنَطُوا وَيَنْشُرُ رَحْمَتَهُ وَهُوَ الْوَلِيُّ الْحَمِيدُ ﴾</p>
+                            <p class="meaning1">هو المتولي لأمور خلقه ، القائم على تدبير ملكه</p>
+                            <p class="meaning2">اى: المتولي للأمر كله والقائم به، نصير المؤمنين وظهيرهم</p>
+                            <div class="footerBar">
+                                <h4>عن زيد بن أرقم عن النبي صلى الله عليه وسلم قال</h4>
+                                <p class="more">﴿ اللَّهُمَّ آتِ نَفْسِى تَقْوَاهَا وَزَكِّهَا أَنْتَ خَيْرُ مَنْ زَكَّاهَا أَنْتَ وَلِيُّهَا وَمَوْلاَهَا﴾</p>
+                        </section>
+                        <section id="sec56" style="display: none;">
+                            <h1>الْحَمِيدُ</h1>
+                            <p class="aya1"> ﴿ وَهُوَ الَّذِي يُنَزِّلُ الْغَيْثَ مِنْ بَعْدِ مَا قَنَطُوا وَيَنْشُرُ رَحْمَتَهُ وَهُوَ الْوَلِيُّ الْحَمِيدُ ﴾</p>
+                            <p class="meaning1">المستحق للحمد والثناء </p>
+                            <p class="meaning2">الله تعالى خلق الدنيا للابتلاء والآخرة للجزاء فالعاقل من حمده في السراء والضراء</p>
+                            <div class="footerBar">
+                                <h4> عن النبي صلى الله عليه وسلم قال</h4>
+                                <p class="more"> "عَجَبا لأمر المؤمن ! إنَّ أمْرَه كُلَّه له خير ، وليس ذلك لأحد إلا للمؤمن ، إن أصابتْهُ سَرَّاءُ شكر ، فكان خيراً له ، وإن أصابتْهُ ضرَّاءُ صَبَر ، فكان خيراً له ، وليس ذلك لغير المؤمن "</p>
+                            </div>
+                        </section>
+                        <section id="sec57" style="display: none;">
+                            <h1> المُحْصِي</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1"> ﴿لَقَدْ أَحْصَاهُمْ وَعَدَّهُمْ عَدًّ ﴾</p>
+                            <p class="meaning1">المحيط بكل شيء جملة وتفصيلاً لا تخفى عليه خافية لا في الأرض ولا في السماء </p>
+                            <p class="meaning2">اى: هو العليم بدقائق الأمور وبأسرار المقدور، هو بالمظاهر بصير وبالبواطن خبير، وهو المحصي للطاعات والمحصي لجميع الحالات والمحصي لأنفاس الخلائق والخبير بخفي الوساوس وهو العليم بجميع الموجودات وعدد حركاتها وسكناتها وشؤونها</p>
+                            <p class="meaning2">فالعد شيء والإحصاء شيء آخر</p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more"> ﴿وَإِنْ تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec58" style="display: none;">
+                            <h1> المُبْدِىءُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1"> ﴿ إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ ﴾</p>
+                            <p class="meaning1">المبدع الذي خلق فأبدع على غير مثالٍ سابق </p>
+                            <p class="meaning2">اى: أنه هو الذي أنشا الأشياء واخترعها ابتداء من غير سابق مثال، والبدء هو فعل الشئ ، وابتدأه بمعنى أوجده من عدم</p>
+                        </section>
+                        <section id="sec59" style="display: none;">
+                            <h1>المُعِيدُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1"> ﴿ إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ ﴾</p>
+                            <p class="meaning1">هو الذي يُعيدُ الأشياء بأعيانها </p>
+                            <p class="meaning2">اى: ان الله عزَّ وجلَّ هو المبدي والمعيد، بدأك بالإحسان إليك حيًّا وأعادك إلى ما كنت عليه من العدم عند الموت، ثم أعادك من العدم إلى الحياة لتلقى جزاء عملكم</p>
+                        </section>
+                        <section id="sec60" style="display: none;">
+                            <h1>المُحْيِي</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1"> ﴿ فَانظُرْ إِلَى آثَارِ رَحْمَةِ اللَّهِ كَيْفَ يُحْييِ الأَرْضَ بَعْدَ مَوْتِهَا إِنَّ ذَلِكَ لَمُحْيِي الْمَوْتَى وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ﴾</p>
+                            <p class="meaning1">هو خالق الحياة في كلِّ شيءٍ حي </p>
+                            <p class="meaning2">يحيي الخلق من العدم، ويحيي الخلق بعد الموت</p>
+                            <div class="footerBar">
+                                <h4> </h4>
+                                <p class="more">﴿قَالُوا رَبَّنَا أَمَتَّنَا اثْنَتَيْنِ وَأَحْيَيْتَنَا اثْنَتَيْنِ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec61" style="display: none;">
+                            <h1> المُمِيتُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن الكريم اسماً وإنما وردا فعلاً</p>
+                            <p class="aya1"> ﴿وَهُوَ الَّذِي أَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ إِنَّ الْإِنْسَانَ لَكَفُورٌ ﴾</p>
+                            <p class="meaning1">مقدِّر الموت على كلِّ من أماته ولا مميت سواه </p>
+                            <p class="meaning2">لا يموت الإنسان إلا بأجله الذي حدده الله له فالإنسان العاقل هو الذي يكون مستعداً للموت</p>
+                            <div class="footerBar">
+                                <h4>عَنْ شَدَّادِ بْنِ أَوْسٍ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهم عَلَيْهِ وَسَلَّمَ</h4>
+                                <p class="more">"الْكَيِّسُ مَنْ دَانَ نَفْسَهُ وَعَمِلَ لِمَا بَعْدَ الْمَوْتِ وَالْعَاجِزُ مَنْ أَتْبَعَ نَفْسَهُ هَوَاهَا وَتَمَنَّى عَلَى اللَّهِ"</p>
+                            </div>
+                        </section>
+                        <section id="sec62" style="display: none;">
+                            <h1> الحَيُّ</h1>
+                            <p class="aya1"> ﴿ وَتَوَكَّلْ عَلَى الْحَيِّ الَّذِي لَا يَمُوتُ ﴾</p>
+                            <p class="meaning1">الذي له كمال الحياة، والذي لا يموت </p>
+                            <p class="meaning2">الله عز وجل هو الحي الباقي من أزل الأزل إلى أبد الأبد، والأزل هو عمق الوجود ودوامه في الماضي ، والأبد هو دوام الوجود وبقاؤه في المستقبل ، من أزل الأزل إلى أبد الأبد</p>
+                            <div class="footerBar">
+                                <h4>قالَ أبو بَكْرٍ: أمَّا بَعْدُ ،</h4>
+                                <p class="more"> فمَن كانَ مِنكُم يَعْبُدُ مُحَمَّدًا صَلَّى اللهُ عليه وسلَّمَ tإنَّ مُحَمَّدًا قدْ مَاتَ، ومَن كانَ مِنكُم يَعْبُدُ اللَّهَ فإنَّ اللَّهَ حَيٌّ لا يَمُوتُ</p>
+                                <p class="more"> ﴿ وَعَنَتِ الْوُجُوهُ لِلْحَيِّ الْقَيُّومِ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec63" style="display: none;">
+                            <h1> الْقَيُّومُ</h1>
+                            <p class="aya1"> ﴿ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ
+                                وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِي ﴾</p>
+                            <p class="meaning1">الدائم القيام بتدبير خلقه وحفظهم </p>
+                            <p class="meaning2"> القيوم هو الذي يحتاجه كل شيء في كل شيء ولا يحتاج هو إلى شيء </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more"> ﴿ وَعَنَتِ الْوُجُوهُ لِلْحَيِّ الْقَيُّومِ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec64" style="display: none;">
+                            <h1> الوَاجِدُ</h1>
+                            <p class="aya1">لم تجئ تسميته به إلا في حديث تعداد الأسماء الحسنى </p>
+                            <p class="meaning1"> ذو الوجد والغنى الكامل المطلق الذى لا يفتقر </p>
+                            <p class="meaning2">الواجد هو الغني، والواجد هو العالم، والواجد هو المستغني عن كلِّ شيء، والواجد هو الذي لا يفوته شيء</p>
+                            <div class="footerBar">
+                                <h4>ورد في القرآن الكريم مادَّة الوجد فقد قال تعالى</h4>
+                                <p class="more">﴿أَلَمْ يَجِدْكَ يَتِيماً فَآَوَى (6) وَوَجَدَكَ ضَالّاً فَهَدَى (7) وَوَجَدَكَ عَائِلاً فَأَغْنَى﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec65" style="display: none;">
+                            <h1> المَاجِدُ</h1>
+                            <p class="aya1">لم تجئ تسميته به إلا في حديث تعداد الأسماء الحسنى </p>
+                            <p class="meaning1"> هو الواسع الكرم، الغنيُّ المغني </p>
+                            <p class="meaning2">المتناهي في الكمال والعزَّ، له الجمال في الأوصاف والأفعال، الذي يعامل عباده بالكرم والجود ويتجلى لهم بنور الوداد، ماجد وذاته ماجدة، أفعاله كريمة، مودته لعباده بالغة</p>
+                            <div class="footerBar">
+                                <h4>ومن كلمات الدعاء</h4>
+                                <p class="more"> اللهم أنت الماجد المجيد، الفعال لما يريد نسألك الأمن يوم الوعيد، أنت الماجد المجيد.</p>
+                            </div>
+                        </section>
+                        <section id="sec66" style="display: none;">
+                            <h1>الوَاحِدُ</h1>
+                            <p class="aya1">﴿لِّمَنِ الْمُلْكُ الْيَوْمَ لِلَّهِ الْوَاحِدِ الْقَهَّارِ ﴾</p>
+                            <p class="meaning1">الله عز وجل واحد لا شريك له ، أحد لا مثيل له </p>
+                            <p class="meaning2">التوحيد عقيدة ، وهو نهاية العلم ، والعبادة نهاية العمل ، وحينما توحده وتعبده حققت الهدف من وجودك </p>
+                            <p class="meaning2">" الواحد " في أسماء الله تعالى هو الفرد الذي لم يزل وحده ، ولم يكن معه آخر</p>
+                        </section>
+                        <section id="sec67" style="display: none;">
+                            <h1> الصَّمَدُ</h1>
+                            <p class="aya1">﴿قُلْ هُوَ اللَّهُ أَحَدٌ . اللَّهُ الصَّمَدُ ﴾</p>
+                            <p class="meaning1"> الذي يصمد إليه في الحوائج أي يقصد إليه في تلبية الحوائج </p>
+                            <p class="meaning2">هو الذي يصمد إليه الناس في حوائجهم ، وسائر أمورهم ، فالأمور أُصمدت إليه ، وقيامها وبقاؤها عليه ، لا يقضي فيها غيره ، وهو المقصود في الرغائب ، والمستغاث به عند المصائب ، وهو الذي يُطعِم ، ولا يُطعَم ، ولم يلد ، ولم يولد
+                            </p>
+                            <div class="footerBar">
+                                <h4>قال النبيُّ لأصحابه</h4>
+                                <p class="more"> ﴿ أيعجز أحدُكم أن يقرأ ثلثَ القرآنِ في ليلةٍ ؟ فشقَّ ذلك عليهم وقالوا : أينا يطيقُ ذلك يا رسولَ اللهِ ؟ فقال : اللهُ الواحدُ الصمدُ ثلثُ القرآنِ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec68" style="display: none;">
+                            <h1>القَادِرُ</h1>
+                            <p class="aya1">﴿قُلْ هُوَ الْقَادِرُ عَلَى أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعاً وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ انظُرْ كَيْفَ نُصَرِّفُ الآيَاتِ لَعَلَّهُمْ يَفْقَهُونَ
+                                ﴾
+                            </p>
+                            <p class="meaning1"> المتمكن الذى له القدرة الشاملة الكاملة من الفعل بلا واسطة </p>
+                            <p class="meaning2"> الإنسان ضعيف يكمِّل ضعفه بالأدوات اما الله سبحانه وتعالى فهو منزَّهٌ عن العِلَّة الغائيَّة، منزَّه عن أن يصل إلى أهدافه بوسيلة </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ إِنَّمَا أَمْرُهُ إِذَا أَرَادَ شَيْئاً أَنْ يَقُولَ لَهُ كُنْ فَيَكُونُ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec69" style="display: none;">
+                            <h1> المُقْتَدِرُ</h1>
+                            <p class="aya1">﴿وَكَانَ اللَّهُ عَلَى كُلِّ شَيْءٍ مُقْتَدِرًا﴾</p>
+                            <p class="meaning1"> هو الذي يقدر الأشياء بعلمه ، وينفذها بقدرته ، علمه مطلق ، وقدرته مطلقة </p>
+                            <p class="meaning2"> يقدر الاشياءيعرفها ، قَدرها من التقدير ، وقَدرها من التعظيم ، ومنها ليلة القدر في هذه الليلة قدر الإنسان فيها ربه ، لذلك إذا قدرت ربك وعرفته خير لك من ألف شهر </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec70" style="display: none;">
+                            <h1> المُقَدِّمُ</h1>
+                            <p class="aya1 smFont">لم يرد اسم المُقَدِّمُ فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿ وَلَقَدْ عَلِمْنَا الْمُسْتَقْدِمِينَ مِنْكُمْ وَلَقَدْ عَلِمْنَا الْمُسْتَأْخِرِينَ﴾</p>
+                            <p class="meaning1"> هو المُعطِي لعوالي الرُّتب </p>
+                            <p class="meaning2"> قدم أحبابه ورفع ذكرهم وأعلى قدرهم وعصمهم، هو الذي يرفع ذكرك ، هو الذي يعلي قدرك ، هو الذي يوفقك ، قدمك بالتوفيق ، قدمك بالنصر ، قدمك بالتأييد </p>
+                            <div class="footerBar">
+                                <h4>من الدعاء المأثور</h4>
+                                <p class="more"> اللهم أعطنا ولا تحرمنا ، يعني قدمنا بالعطاء ، وآثرنا ولا تؤثر علينا ، وأرضنا وارضَ عنا ، كن لنا ولا تكن علينا ، يعني قدمنا يا رب </p>
+                            </div>
+                        </section>
+                        <section id="sec71" style="display: none;">
+                            <h1> المُؤَخِّرُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿وَأَنْفِقُوا مِنْ مَا رَزَقْنَاكُمْ مِنْ قَبْلِ أَنْ يَأْتِيَ أَحَدَكُمُ الْمَوْتُ فَيَقُولَ رَبِّ لَوْلَا أَخَّرْتَنِي إِلَى أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُنْ مِنَ الصَّالِحِينَ ﴾</p>
+                            <p class="meaning1">هو الدّافع عن عوالي الرّتب </p>
+                            <p class="meaning2"> الله عز وجل يؤخر الأشياء بحكمته فيضعها في مواضعها , يؤخر العذاب بمقتضى حكمته ورحمته ابتلاء لعباده لعلهم يتوبوا إليه </p>
+                            <div class="footerBar">
+                                <h4>عَنِ ابْنِ أَبِي مُوسَى عَنْ أَبِيهِ عَنِ النَّبِيِّ صَلَّى اللَّه عَلَيْهِ وَسَلَّمَ أَنَّهُ كَانَ يَدْعُو بِهَذَا الدُّعَاءِ</h4>
+                                <p class="more">"رَبِّ اغْفِرْ لِي خَطِيئَتِي وَجَهْلِي وَإِسْرَافِي فِي أَمْرِي كُلِّهِ وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي اللَّهُمَّ اغْفِرْ لِي خَطَايَايَ وَعَمْدِي وَجَهْلِي وَهَزْلِي وَكُلُّ ذَلِكَ عِنْدِي اللَّهُمَّ اغْفِرْ لِي مَا
+                                    قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ وَأَنْتَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ"</p>
+                            </div>
+                        </section>
+                        <section id="sec72" style="display: none;">
+                            <h1> الأَوَّلُ</h1>
+                            <p class="aya1">﴿الْأَوَّلُ وَالْآَخِرُ وَالظَّاهِرُ وَالْبَاطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ﴾</p>
+                            <p class="meaning1"> مطلق القبلية ليس قبله شيء ، ولا بعده شيء الله " الأول " على كل ما سواه ، المتقدم على كل ما عداه </p>
+                            <p class="meaning2"> قال ابن عطية: هُوَ الأَوَّلُ وَالآخِرُ. الأول: الذي ليس لوجوده بداية مفتتحة، والآخر: الذي ليس له نهاية مُنقضية. وقيل: هو الأول بالأزلية، والآخر بالأبدية، وهو الأول بالوجود؛ إذ كلُّ موجود فبعده وبه </p>
+                        </section>
+                        <section id="sec73" style="display: none;">
+                            <h1> الآخِرُ</h1>
+                            <p class="aya1">﴿الْأَوَّلُ وَالْآَخِرُ وَالظَّاهِرُ وَالْبَاطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ﴾</p>
+                            <p class="meaning1"> حكمه الأخير في كل شيء</p>
+                            <p class="meaning2"> قال ابن عطية: هُوَ الأَوَّلُ وَالآخِرُ. الأول: الذي ليس لوجوده بداية مفتتحة، والآخر: الذي ليس له نهاية مُنقضية. وقيل: هو الأول بالأزلية، والآخر بالأبدية، وهو الأول بالوجود؛ إذ كلُّ موجود فبعده وبه </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ وَإِلَيْهِ يُرْجَعُ الْأَمْرُ كُلُّهُ فَاعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ ﴾</p>
+                                <p class="more">﴿ أَلَا إِلَى اللَّهِ تَصِيرُ الْأُمُورُ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec74" style="display: none;">
+                            <h1>الظَّاهِرُ</h1>
+                            <p class="aya1">﴿الْأَوَّلُ وَالْآَخِرُ وَالظَّاهِرُ وَالْبَاطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ﴾</p>
+                            <p class="meaning1"> العالي فوق كل شيء، الظاهر بالقدرة على كل شيء، الغالب القاهر الذي لا يغلبه شيء </p>
+                            <p class="meaning2"> هو " الظاهر " فهو المنفرد بعلو الذات والفوقية ، وعلو الغلبة والقهرية ، وعلو الشأن وانتفاء الشديد والمثلية ، هو " الظاهر " في كل معاني الكمال ، هو المبين لحججه الباهرة وبراهينه الظاهرة </p>
+                            <div class="footerBar">
+                                <h4>وقد ورد أيضاً في السنة الصحيحة ، في دعاء النبي صلى الله عليه وسلم </h4>
+                                <p class="more">" اللهم وأنت الظاهر فليس فوقك "</p>
+                            </div>
+                        </section>
+                        <section id="sec75" style="display: none;">
+                            <h1>البَاطِنُ</h1>
+                            <p class="aya1">﴿الْأَوَّلُ وَالْآَخِرُ وَالظَّاهِرُ وَالْبَاطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ﴾</p>
+                            <p class="meaning1"> القريب من خلقه المحيط بهم علما، فهو يعلم السر وأخفى </p>
+                            <p class="meaning2"> وقيل هو المحتجب عن خلقه عن أبصارهم وأوهامهم، وقيل: هو العالم بما يبطن </p>
+                            <div class="footerBar">
+                                <h4>وقد ورد أيضاً في السنة الصحيحة ، في دعاء النبي صلى الله عليه وسلم </h4>
+                                <p class="more">"وأنت الباطِنُ فليس دُونَك شيء "</p>
+                            </div>
+                        </section>
+                        <section id="sec76" style="display: none;">
+                            <h1> الوَالِي</h1>
+                            <p class="aya1">﴿أَمِ اتَّخَذُوا مِنْ دُونِهِ أَوْلِيَاءَ فَاللَّهُ هُوَ الْوَلِيُّ وَهُوَ يُحْيِي الْمَوْتَى وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ﴾</p>
+                            <p class="meaning1">المتولي للأمر والقائم به، نصير المؤمنين وظهيرهم </p>
+                            <p class="meaning2"> الله هو الوالي، أي مدبِّر، وعالم، وخبير، ومالك، ومتصرِّف، ومع خلقه يدبِّر أمر حياتهم، أمر مماتهم، أمر دنياهم، أمر آخرتهم، أمر أنفسهم، أمر أجسادهم، أمر من حولهم، أمر ما حولهم.</p>
+                            <div class="footerBar">
+                                <h4> " من طلب العلم تكفَّل الله له برزقه " .. حديث شريف </h4>
+                                <p class="more">ما من إنسان يطلب العلم ويخطب ودَّ الله عزَّ وجلَّ، ويعمل الأعمال الصالحة، ويحرص على التقرُّب إلى الله، إلا يسَّر الله له رزقاً حلالاً طيِّباً بجهدٍ قليل</p>
+                                <p class="more"> لذلك فأنت في الدنيا من أجل أن تعرف الله، أنت في الدنيا من أجل أن تعمل صالحاً تتقرَّب إليه، وقد تكفَّل الله لك برزقك، تكفَّل الله لك بأمرك
+                                </p>
+                            </div>
+                        </section>
+                        <section id="sec77" style="display: none;">
+                            <h1> المُتَعَالِ</h1>
+                            <p class="aya1">﴿عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْكَبِيرُ الْمُتَعَالِ﴾</p>
+                            <p class="meaning1"> هو القاهر لخلقه , المستعلي على كل شيء بقدرته </p>
+                            <p class="meaning2"> قال بعض العلماء: "المتعال" على كل شيء أي قد أحاط بكل شيء علماً، وقدرةً، وقهراً، وخضعت له الرقاب في كل شيء، ودان له العباد طوعاً وكرهاً.</p>
+                        </section>
+                        <section id="sec78" style="display: none;">
+                            <h1> البَرُّ</h1>
+                            <p class="aya1">﴿إِنَّا كُنَّا مِنْ قَبْلُ نَدْعُوهُ إِنَّهُ هُوَ الْبَرُّ الرَّحِيمُ﴾</p>
+                            <p class="meaning1"> العطوف المحسن لعبادة </p>
+                            <p class="meaning2">هو العطوف على عباده، ببره ولطفه، فهو أهل البر والعطاء، يحسن إلى عباده في الأرض والسماء ,هو الصادق في وعده المتجاوز عن عبده فهو ربنا المحسن العظيم والرب الكريم واسع الفضل والعلم والحكمة</p>
+                        </section>
+                        <section id="sec79" style="display: none;">
+                            <h1> التَّوَّابُ</h1>
+                            <p class="aya1">﴿ فَتَلَقَّى آَدَمُ مِنْ رَبِّهِ كَلِمَاتٍ فَتَابَ عَلَيْهِ إِنَّهُ هُوَ التَّوَّابُ الرَّحِيمُ﴾</p>
+                            <p class="meaning1">يعني يغفر جميع الذنوب كماً، ويغفر أكبر الذنوب نوعاً </p>
+                            <p class="meaning2"> يقبل التوبة عن عباده ، حالاً بعد حال ، يوماً بعد يوم ، وحيناً بعد حين ، فما من عبد عصاه ، وبلغ عصيانه مداه ، ثم رغب في التوبة إلا فتح له أبواب رحمته ، وفرح بعودته ، ما لم تغرغر النفس ، أو تطلع الشمس من مغربها </p>
+                            <p class="meaning2"> باب التوبة يغلق والإنسان على فراش الموت ، تغرغر روحه ، أو تطلع الشمس من مغربها</p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more"> إنَّ اللِهَ عزَّ وجلَّ يبْسُطُ يدَهُ باللَّيْلٍ ليَتوبَ مُسيءُ النهار ، ويبسُطُ يدَه بالنَّهار ليتُوبَ مُسيء الليلِ ، حتى تطْلُعَ الشمسُ من مغرِبِها</p>
+                            </div>
+                        </section>
+                        <section id="sec80" style="display: none;">
+                            <h1> المُنْتَقِمُ</h1>
+                            <p class="aya1">لم يرد اسم المُنْتَقِمُ فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿ إن الله عزيز ذو انتقام﴾</p>
+                            <p class="meaning1"> الذى يقسم ظهور الطغاة ويشدد العقوبة على العصاة وذلك بعد الإنذار والإمهال </p>
+                            <p class="meaning2">وسبب تأخير انتقام الله من الظلمة والطغاة والعصاة والجبابرة هو تمحيص واختبار المؤمنين؛ وأيضاً إقامة الحجة والإعذار؛ وحتى يعلم أهل الإسلام أن جنة الله غالية ولا تنال إلا بالصبر واليقين والتمسك بالدين</p>
+                        </section>
+                        <section id="sec81" style="display: none;">
+                            <h1> العَفُوُّ</h1>
+                            <p class="aya1">﴿إِنْ تُبْدُوا خَيْرًا أَوْ تُخْفُوهُ أَوْ تَعْفُوا عَنْ سُوءٍ فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا﴾</p>
+                            <p class="meaning1"> الذي يمحو السيئات، ويتجاوز عن المعاصي </p>
+                            <p class="meaning2"> العفو معنيان ؛ معنى سلبي، ومعنى إيجابي، السلبي المحو، والإيجابي العطاء فالله عزَّ وجلَّ يمحو ذنوب عباده ويتفضَّل عليهم بفضله</p>
+                            <div class="footerBar">
+                                <h4>عن عائشة قالت: قلت: "يا رسول الله، أرأيت إن علمت أي ليلة ليلة القدر ما أقول فيها؟ قال
+                                </h4>
+                                <p class="more">"قولي: اللهم إنك عفو كريم تحب العفو فاعف عني"
+                                </p>
+                                <p class="more">عَنْ أَبِي ذَرٍّ قَالَ قَالَ لِي رَسُولُ اللَّهِ صَلَّى اللَّه عَلَيْهِ وَسَلَّمَ </p>
+                                <p class="more">"اتَّقِ اللَّهِ حَيْثُمَا كُنْتَ وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ"</p>
+                            </div>
+                        </section>
+                        <section id="sec82" style="display: none;">
+                            <h1> الرَّءُوفُ</h1>
+                            <p class="aya1">﴿ وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ وَأَنَّ اللَّهَ رَءُوفٌ رَحِيمٌ ﴾</p>
+                            <p class="meaning1">أعلى درجات الرحمة </p>
+                            <p class="meaning2"> الرأفة شدة الرحمة، وهي أشد من الرحمة، ورأف به أشفق عليه من مكروه يحل به، والرأفة نهاية الرحمة، والرأفة من الله دفع السوء، لذلك قيل، إن الرؤوف من أسماء الله هو المتعطف على المذنبين بالتوبة فاسم الرؤوف متعلق بالوقاية، واسم الرحيم
+                                متعلق بالعلاج
+                            </p>
+                            <div class="footerBar">
+                                <h4>ومن رأفة الله تعالى بالمؤمنين قوله تعالى</h4>
+                                <p class="more">﴿إِنَّ اللَّهَ اشْتَرَى مِنَ الْمُؤْمِنِينَ أَنْفُسَهُمْ وَأَمْوَالَهُمْ بِأَنَّ لَهُمُ الْجَنَّةَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ فَيَقْتُلُونَ وَيُقْتَلُونَ وَعْدًا عَلَيْهِ حَقًّا فِي التَّوْرَاةِ وَالْإِنْجِيلِ وَالْقُرْآنِ
+                                    وَمَنْ أَوْفَى بِعَهْدِهِ مِنَ اللَّهِ فَاسْتَبْشِرُوا بِبَيْعِكُمُ الَّذِي بَايَعْتُمْ بِهِ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec83" style="display: none;">
+                            <h1> مَالِكُ المُلْكِ </h1>
+                            <p class="aya1">﴿ قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاء وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاء وَتُعِزُّ مَن تَشَاء وَتُذِلُّ مَن تَشَاء بِيَدِكَ الْخَيْرُ إِنَّكَ عَلَىَ كُلِّ شَيْءٍ قَدِيرٌ﴾</p>
+                            <p class="meaning1"> هو الذي تنفذ مشيئته في مملكته كيف يشاء وكما يشاء </p>
+                            <p class="meaning2"> هو المتصرف في ملكه كيف يشاء، ولا راد لحكمه، ولا معقب لأمره. والوجود كله من جميع مراتبه، مملكة واحدة لمالك واحد وهو الله وتبارك وتعالى.</p>
+                        </section>
+                        <section id="sec84" style="display: none;">
+                            <h1 class="smH1"> ذُو الجَلَالِ وَالإِكْرَامِ </h1>
+                            <p class="aya1">﴿وَيَبْقَى وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ ﴾</p>
+                            <p class="meaning1"> الجلال يعني التنزيه، تقول: جل جلاله ؛ أيْ تنزهت ذاته عن كل نقص، ,الإكرام فيضٌ منه على خلقه ؛ فما من نعمة تأتيك إلا وهي من الله</p>
+                            <p class="meaning2"> هو الذي لا جلال ولا كمال إلا وهو له، لا جلال ولا كمال ولا كرامة ولا مكرمة ؛ إلا وهي صادرة منه ,إن الإكرام الصادر من الله عز وجل إكرام منزه عن كل غرض لذلك قدم الله اسم الجلال على اسم الإكرام ؛ لأن إكرامه منزه عن كل غرض</p>
+                            <div class="footerBar">
+                                <h4>عَنْ عَائِشَةَ رضي الله عنها قَالَتْ كَانَ النَّبِيُّ صَلَّى اللَّه عَلَيْهِ وَسَلَّمَ إِذَا سَلَّمَ لَمْ يَقْعُدْ إِلا مِقْدَارَ مَا يَقُولُ </h4>
+                                <p class="more">"اللهم أنت السلام ومنك السلام، تبارَكْتَ ذا الجلال والإكرام" </p>
+                            </div>
+                        </section>
+                        <section id="sec85" style="display: none;">
+                            <h1> المُقْسِطُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿ وَإِنْ حَكَمْتَ فَاحْكُمْ بَيْنَهُمْ بِالْقِسْطِ إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ﴾</p>
+                            <p class="meaning1"> هو الذي ينتصف للمظلوم من الظالم </p>
+                            <p class="meaning2"> فالله عزَّ وجلَّ هو الذي يستطيع أن ينتصر للمظلوم من الظالم، فإذا رجع الظالم عن ظلمه أرضى الظالم أيضاً وشملته رحمته.. هذه ليست لغير الله</p>
+                            <div class="footerBar">
+                                <h4>حَدَّثَنَا أَبُو هُرَيْرَةَ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّه عَلَيْهِ وَسَلَّمَ </h4>
+                                <p class="more">"دَخَلَتِ امْرَأَةٌ النَّارَ مِنْ جَرَّاءِ هِرَّةٍ لَهَا أَوْ هِرٍّ رَبَطَتْهَا فَلَا هِيَ أَطْعَمَتْهَا وَلا هِيَ أَرْسَلَتْهَا تُرَمْرِمُ مِنْ خَشَاشِ الأَرْضِ حَتَّى مَاتَتْ هَزْلا"</p>
+                            </div>
+                        </section>
+                        <section id="sec86" style="display: none;">
+                            <h1> الجَامِعُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿هَذَا يَوْمُ الْفَصْلِ جَمَعْنَاكُمْ وَالْأَوَّلِينَ﴾</p>
+                            <p class="meaning1"> الحاشر للخلق والناشر لهم يوم القيامة للثواب والعقاب </p>
+                            <h3>المعنى الاول</h3>
+                            <p class="meaning2">يوم الجمع يوم القيامة، يجمع الله فيه بين الأولين والآخرين، بين الإنس والجن، بين أهل السماء وأهل الأرض، يجمع بين العبد وعمله و هو الذي يجمع أجزاء الخلق بعد تفرُّقها </p>
+                            <h3>المعنى الثانى</h3>
+                            <p class="meaning2"> هو جمع الكمالات كلَّها، ذاتاً، وصفاتٍ، وأفعالاً جمع كل ذلك أسماؤه كلُّها حُسنى فهو المؤلِّف بين المتماثلات والمتباينات والمتضادات </p>
+                        </section>
+                        <section id="sec87" style="display: none;">
+                            <h1> الغَنِيُّ</h1>
+                            <p class="aya1">﴿ وَاللَّهُ الْغَنِيُّ وَأَنْتُمُ الْفُقَرَاءُ ﴾</p>
+                            <p class="meaning1"> هو " الغني " بذاته عن العالمين ، المستغني عن الخلائق أجمعين وكلُ شيءٍ فقير إليه</p>
+                            <p class="meaning2">هو غني عن عباده ، لكنه يعاملهم معاملة يحمدونه عليها و هو ايضا الذي يغني من يشاء من عباده بحكمته </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ وَلَوْ بَسَطَ اللَّهُ الرِّزْقَ لِعِبَادِهِ لَبَغَوْا فِي الْأَرْضِ وَلَكِنْ يُنَزِّلُ بِقَدَرٍ مَا يَشَاءُ إِنَّهُ بِعِبَادِهِ خَبِيرٌ بَصِيرٌ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec88" style="display: none;">
+                            <h1>« المُغْنِيُّ»</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿يَا أَيُّهَا الَّذِينَ آَمَنُوا إِنَّمَا الْمُشْرِكُونَ نَجَسٌ فَلَا يَقْرَبُوا الْمَسْجِدَ الْحَرَامَ بَعْدَ عَامِهِمْ هَذَا وَإِنْ خِفْتُمْ عَيْلَةً فَسَوْفَ يُغْنِيكُمُ اللَّهُ مِنْ فَضْلِهِ إِنْ شَاءَ إِنَّ اللَّهَ عَلِيمٌ
+                                حَكِيمٌ﴾
+                            </p>
+                            <p class="meaning1"> غنيٌ ويُعطي الغِنى لمن يشاء</p>
+                            <p class="meaning2"> إما أن يُغنيك بالدنيا، وإما أن يُغنيك بمعرفته، يُغنيك بتقريبك إليه، يُغنيك بإلقاء النور في قلبك، يُغنيك بأن يُعطيك رؤيةً صحيحة، حكمةٌ بالغة، سدادٌ في الأقوال، وصوابٌ في الأفعال؛ هذا هو الغِنى. والمؤمن ان عرف أنَّ الله تعالى
+                                هو الغنيِّ المُغني، استغنى بالاعتماد عليه عن كلِّ شيء.</p>
+                        </section>
+                        <section id="sec89" style="display: none;">
+                            <h1> المَانِعُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن ورد في الحديث</p>
+                            <p class="aya1">﴿ فَاللَّهُ خَيْرٌ حَافِظًا وَهُوَ أَرْحَمُ الرَّاحِمِينَ﴾</p>
+                            <p class="meaning1"> هو الذي يمنع البلاء حفظاً وعنايةً، ويمنع العطاء عمن يشاء إبتلاءً وحمايةً </p>
+                            <p class="meaning2">الإمام الغزالي يقول: " المانع هو الذي يردُّ أسباب الهلاك والنقصان في الأديان والأبدان، بما يخلق من الأسباب المعدَّة للحفظ </p>
+                            <div class="footerBar">
+                                <h4>ابن عطاء الله السكندريُّ يقول: " إذا فتح الله بصيرتك رأيت المنع عين العطاء "</h4>
+                                <p class="more">﴿ وَلَوْ بَسَطَ اللَّهُ الرِّزْقَ لِعِبَادِهِ لَبَغَوْا فِي الْأَرْضِ وَلَكِنْ يُنَزِّلُ بِقَدَرٍ مَا يَشَاءُ إِنَّهُ بِعِبَادِهِ خَبِيرٌ بَصِيرٌ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec90" style="display: none;">
+                            <h1> الضَّارُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿ وَإِن يَمْسَسْكَ اللّهُ بِضُرٍّ فَلاَ كَاشِفَ لَهُ إِلاَّ هُوَ وَإِن يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَى كُلِّ شَيْءٍ قَدُيرٌ﴾</p>
+                            <h3>يجدر التنبيه إلى أن الضار لا يذكر إلا مقرونا بالنافع </h4>
+                                <h3> اسمان أو وصفان يدلان على تمام القدرة الإلهية؛ فلا ضرَّ ولا نفعَ ولا شرَّ ولا خيرَ إلا وهو بإرادة الله </h3>
+                                <div class="footerBar">
+                                    <h4>عن أبي العباس عبد الله بْنِ عَبَّاسٍ قَالَ كُنْتُ خَلْفَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَوْمًا فَقَالَ </h4>
+                                    <p class="more">"يَا غُلاَمُ إِنِّي أُعَلِّمُكَ كَلِمَاتٍ احْفَظْ اللَّهَ يَحْفَظْكَ احْفَظْ اللَّهَ تَجِدْهُ تُجَاهَكَ إِذَا سَأَلْتَ فَاسْأَلْ اللَّهَ وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ وَاعْلَمْ أَنَّ الأمة لَوْ اجْتَمَعَتْ
+                                        عَلَى أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ وَلَوْ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ رُفِعَتْ
+                                        الْأَقْلاَمُ وَجَفَّتْ الصُّحُفُ"</p>
+                                </div>
+                        </section>
+                        <section id="sec91" style="display: none;">
+                            <h1> النَّافِعُ</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿ وَإِن يَمْسَسْكَ اللّهُ بِضُرٍّ فَلاَ كَاشِفَ لَهُ إِلاَّ هُوَ وَإِن يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَى كُلِّ شَيْءٍ قَدُيرٌ﴾</p>
+                            <h3>يجدر التنبيه إلى أن الضار لا يذكر إلا مقرونا بالنافع </h3>
+                            <h3> اسمان أو وصفان يدلان على تمام القدرة الإلهية؛ فلا ضرَّ ولا نفعَ ولا شرَّ ولا خيرَ إلا وهو بإرادة الله </h3>
+                            <div class="footerBar">
+                                <h4>عن أبي العباس عبد الله بْنِ عَبَّاسٍ قَالَ كُنْتُ خَلْفَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَوْمًا فَقَالَ </h4>
+                                <p class="more">"يَا غُلاَمُ إِنِّي أُعَلِّمُكَ كَلِمَاتٍ احْفَظْ اللَّهَ يَحْفَظْكَ احْفَظْ اللَّهَ تَجِدْهُ تُجَاهَكَ إِذَا سَأَلْتَ فَاسْأَلْ اللَّهَ وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ وَاعْلَمْ أَنَّ الأمة لَوْ اجْتَمَعَتْ عَلَى
+                                    أَنْ يَنْفَعُوكَ بِشَيْءٍ لَمْ يَنْفَعُوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ لَكَ وَلَوْ اجْتَمَعُوا عَلَى أَنْ يَضُرُّوكَ بِشَيْءٍ لَمْ يَضُرُّوكَ إِلاَّ بِشَيْءٍ قَدْ كَتَبَهُ اللَّهُ عَلَيْكَ رُفِعَتْ الْأَقْلاَمُ
+                                    وَجَفَّتْ الصُّحُفُ"
+                                </p>
+                            </div>
+                        </section>
+                        <section id="sec92" style="display: none;">
+                            <h1> النُّورُ</h1>
+                            <p class="aya1">﴿ اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ﴾</p>
+                            <p class="meaning1"> النور الهادي الرشيد الذي يُرشد بهِدايته من يشاء فيُبّين له الحق ويُلهمه اتباعه </p>
+                            <p class="meaning2"> دينه نوراً ورسوله نوراً وداره يتلألأ نوراً، ويتوقد النور في قلوب عباده المؤمنين، ويجري ويظهر على ألسنتهم ووجوههم</p>
+                        </section>
+                        <section id="sec93" style="display: none;">
+                            <h1> الهَادِي</h1>
+                            <p class="aya1 smFont">ورد فعلا فى القرآن الكريم وورد اسما في الحديث</p>
+                            <p class="aya1">﴿ وَيَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ﴾</p>
+                            <p class="meaning1"> هو الذي مَنَّ بُهَداهُ على من أراد من عباده فخصَّهُ بهدايته، وأكرمه بنورِ توحيده </p>
+                            <p class="meaning2"> الهُدى أربعة أنواع هِداية عامة، هُديَ الإنسان إلى تأمين الحاجات، الهُدى الثاني هِداية الإيمان، يهديك إليه، يهديك إلى كتابهِ يهديك إلى الحق ، الهُدى الثالث: هِداية التوفيق، الهُدى الرابع: هِداية الجنة</p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">يقول الإمام الجنيد : " اهدنا الصراط المستقيم ؛ يعني يا رب مِلْ بقلوبنا إليك، وأقم هِمَمنا بين يديك، واجعل دليلنا منك عليك</p>
+                            </div>
+                        </section>
+                        <section id="sec94" style="display: none;">
+                            <h1> البَدِيعُ</h1>
+                            <p class="aya1">﴿بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ وَإِذَا قَضَى أَمْراً فَإِنَّمَا يَقُولُ لَهُ كُنْ فَيَكُونُ ﴾</p>
+                            <p class="meaning1"> خالق الأشياء بلا مثال سابق، ولا نظير له في ذاته وصفاته </p>
+                            <p class="meaning2">هو البديع المطلق في ذاته و صفاته و أفعاله وهو المبدع الذي أبدع الخلق من غير مثال سابق وحظ العبد من الاسم الأكثار من ذكره وفهم معناه فيتجلى له نوره ويدخله الحق تبارك والله في دائرة الإبداع، ومن أدب ذكر هذا الاسم أن يتجنب البدعة
+                                ويلازم السنة
+                            </p>
+                        </section>
+                        <section id="sec95" style="display: none;">
+                            <h1> البَاقِي</h1>
+                            <p class="aya1 smFont">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="aya1">﴿وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ﴾</p>
+                            <p class="meaning1">هو الحي الذي لا يموت أبداً، الواجب الوجود بذاته، الدائم الوجود، الموصوف بالبقاء الأزلي </p>
+                            <p class="meaning2"> فالله سبحانه وتعالى له البقاء، والبقاء صفةٌ من صفات ذاته.. فنحن نعرف صفات الذَّات، وصفات الأفعال.. البقاء صفةٌ من صفات ذاته، الباقي أيضاً هو الواجب الوجود بذاته </p>
+                            <div class="footerBar">
+                                <h4>قالَ أبو بَكْرٍ: أمَّا بَعْدُ فمَن كانَ مِنكُم يَعْبُدُ مُحَمَّدًا صَلَّى اللهُ عليه وسلَّمَ، فإنَّ مُحَمَّدًا قدْ مَاتَ، ومَن كانَ مِنكُم يَعْبُدُ اللَّهَ فإنَّ اللَّهَ حَيٌّ لا يَمُوتُ</h4>
+                                <p class="more">﴿ إِنَّا آمَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا خَطَايَانَا وَمَا أَكْرَهْتَنَا عَلَيْهِ مِنَ السِّحْرِ ۗ وَاللَّهُ خَيْرٌ وَأَبْقَىٰ ﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec96" style="display: none;">
+                            <h1> الوَارِثُ</h1>
+                            <p class="aya1">﴿ وَإِنَّا لَنَحْنُ نُحْيِي وَنُمِيتُ وَنَحْنُ الْوَارِثُونَ﴾</p>
+                            <p class="meaning1"> هو الباقي الدائم بعد فناء الخلق، وهو يرث الأرض ومن عليها، وهو خير الوارثين أي يبقى بعد فناء الكل، ويفني من سواه </p>
+                            <p class="meaning2"> هو الباقي بعد فناء الخلق، والمسترد أملاكهم وموارثهم بعد موتهم، ولم يزل الله باقيًا مالكًا لأصول الأشياء كلها، يورثها من يشاء ويستخلف فيها من أحب</p>
+                        </section>
+                        <section id="sec97" style="display: none;">
+                            <h1>الرَّشِيدُ</h1>
+                            <p class="aya1 ">لم يرد في القرآن الكريم ،بينما ورد اسم المرشد وليس الرشيد</p>
+                            <p class="aya1">﴿وَتَرَى الشَّمْسَ إِذَا طَلَعَتْ تَزَاوَرُ عَنْ كَهْفِهِمْ ذَاتَ الْيَمِينِ وَإِذَا غَرَبَتْ تَقْرِضُهُمْ ذَاتَ الشِّمَالِ وَهُمْ فِي فَجْوَةٍ مِنْهُ ذَلِكَ مِنْ آيَاتِ اللَّهِ مَنْ يَهْدِ اللَّهُ فَهُوَ الْمُهْتَدِ وَمَنْ
+                                يُضْلِلْ فَلَنْ تَجِدَ لَهُ وَلِيًّا مُرْشِدًا ﴾</p>
+                            <p class="meaning1"> عظيم الحكمة الذي يرشد الخلق ويهديهم للحق</p>
+                            <p class="meaning2"> و المتَّصف بكمال الكمال، عظيم الحكمة، بالغ الرشاد الذي تتجه تدبيراته إلى غاية الصواب والسداد، والذي يرشد الخلق ويهديهم إلى فيه صلاحُهم، الرشيد يوجِّهم بحكمته إلى ما فيه خيرهم ورشادهم في الدنيا والآخرة </p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿ إِذْ أَوَى الْفِتْيَةُ إِلَى الْكَهْفِ فَقَالُوا رَبَّنَا آَتِنَا مِنْ لَدُنْكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَداً﴾</p>
+                            </div>
+                        </section>
+                        <section id="sec98" style="display: none;">
+                            <h1> الصَّبُورُ</h1>
+                            <p class="aya1 ">لم يرد فى القرآن ولكن مادته وردت وورد في الحديث</p>
+                            <p class="meaning1">الذي لا يستعجل في مؤاخذة العصاة أو الذي لا تحمله العجلة على المنازعة إلى الفعل قبل أوانه </p>
+                            <p class="meaning2"> هُوَ الذِي لَا يُعَاجِلُ العُصَاةَ بِالِانْتِقَامِ مِنْهُمْ، بَلْ يُؤَخِّرُ ذَلِكَ إلَى أجَلٍ مُسَمَّى، وَيُمْهِلُهُم لِوَقْتٍ مَعْلُوْم. فَمَعْنَى الصبورِ فِي صِفَةِ الله سبْحَانَهُ، قَرِيبٌ مِنْ مَعْنَى الحَلِيم؛ إلا أن الفَرْقَ
+                                بَين الأمْرَيْنِ: أنهم لَا يَأمَنُونَ العُقُوْبَةَ فِي صِفَةِ الصبورِ، كمَا يَسْلَمُونَ مِنْهَا فِي صِفَةَ الحَلِيْمِ </p>
+                            <p class="meaning2"> فتأخير العقوبة هو مدلول اسم الصبور، كأن الله عزّ وجل يُعطي الناس فرصةً ليتوبوا، يُعطيهم فرصةً ليرجعوا، لِيُنيبوا، ليستغفروا. حيث إن القصد هو إصلاحه وإسعاده ورحمته، أما لو أن القصد تطبيق القوانين لما ترك على ظهرها من دابة</p>
+                            <div class="footerBar">
+                                <h4></h4>
+                                <p class="more">﴿وَلَقَدِ اسْتُهْزِئَ بِرُسُلٍ مِنْ قَبْلِكَ فَأَمْلَيْتُ لِلَّذِينَ كَفَرُوا ثُمَّ أَخَذْتُهُمْ فَكَيْفَ كَانَ عِقَابِ ﴾ </p>
+                            </div>
+                        </section>
+                        <section id="sec99" style="display: none;">
+                            <h1>مصادر المحتوى </h1>
+                            <ol>
+                                <li><a href="https://nabulsi.com" target="_blank"> https://nabulsi.com </a></li>
+                                <li><a href="https://kalemtayeb.com" target="_blank">https://kalemtayeb.com</a></li>
+                                <li><a href="https://www.draligomaa.com" target="_blank">https://www.draligomaa.com</a></li>
+                                <li><a href="https://www.qallwdall.com" target="_blank">https://www.qallwdall.com</a></li>
+                                <li>أسماء الله الحسنى للشيخ الشعراوى</li>
+                                <li><a href="http://iid-alraid.com" target="_blank">http://iid-alraid.com</a></li>
+                                <li><a href="https://ar.wikipedia.org" target="_blank">https://ar.wikipedia.org</a></li>
+                                <li><a href="https://ar.islamway.net" target="_blank">https://ar.islamway.net</a></li>
+                                <li><a href="https://al-maktaba.org" target="_blank">https://al-maktaba.org</a></li>
+                                <li><a href="https://khutabaa.com" target="_blank">https://khutabaa.com</a></li>
+                            </ol>
+                            <div class="footerBar">
+                                <h4>ويجدر التنبيه إلى أن أسماء الله تعالى أكثر من تسعة وتسعين مع أن هذا العدد ورد في أحاديث صحيحة. ففي الصحيحن من حديث أبي هريرة أن النبي صلى الله عليه وسلم قال </h4>
+                                <p class="more">«إنَّ لِلَّهِ تِسْعَةً وتِسْعِينَ اسْمًا مِئَةً إلَّا واحِدًا، مَن أحْصَاهَا دَخَلَ الجَنَّةَ» صحيح البخارى (2736) </p>
+                                <p class="more">ومما يدل على أن أسماءه تعالى أكثر من هذا العدد ما أخرجه الإمام أحمد من دعاء النبي صلى الله عليه وسلم حيث يقول: أسألك بكل اسم هو لك سميت به نفسك أو أنزلته في كتابك أو علمته أحدا من خلقك أو استأثرت به في علم الغيب عندك ........الحديث
+                                </p>
+                                <p class="more">الأسماء التسعة والتسعون قد أوردها الترمذي في حديث عن أبي هريرة ولكن العلماء اختلفوا في تصحيح حديث الترمذي هذا، فمنهم من رآه صحيحا ومنهم من اعتبره مدرجا، أي أن أحد من روى عنهم الترمذي هذا الحديث هو الذي اجتهد في استنباط
+                                    هذه الأسماء من الكتاب والسنة. وعلى تقدير صحة الحديث تكون الأسماء كلها صحيحة ولا يجوز نفي شيء منها، لأن أسماءه تعالى توقيفية ولا يجوز التغيير فيها .. والله أعلم.
+                                </p>
+                            </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!--  -->
+                </div>
+                <div id="rightSide">
+
+                </div>
+            </div>
+            <script type=" text/javascript " src="js/script.js "></script>
+</body>
+
+</html>
