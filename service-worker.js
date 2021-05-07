@@ -37,12 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["aya.mp3","ffe0d697e78ae2d5dbce1702ee128dc2"],["css/styles.css","fd234992099bb118a8222441f54cc722"],
-                      ["images/bkgr.jpg","45125a99206be5463a8a9790fa07ed42"],["images/btn_menu100.png","4156eb94456e9b57c299ce3a5d9a3a9d"],
-                      ["images/btn_menu192.png","c9557bccb062d2ac9303045057454f80"],["images/btn_menu512.png","05e3291654162be624cbd851768c8c97"],
-                      ["images/next.png","e244c155d88a1346637b9e5a8be11def"],["images/previous.png","f39d2e2324fbf11b1752e78f78b79eb0"],
-                    ["index.html","82d6ce2d4055e1b04b938d6e1aafcb29"],["js/script.js","5182302ea2b1313d37ea04d8b6bc83e7"],
-                      ["manifest.json","e639219d64dfebd9e7ad3feed5f68778"],["package.json","84457cfb803b86aae0b934a5b60bb717"]];
+var precacheConfig = [["aya.mp3","ffe0d697e78ae2d5dbce1702ee128dc2"],["css/styles.css","fd234992099bb118a8222441f54cc722"],["images/bkgr.jpg","45125a99206be5463a8a9790fa07ed42"],["images/btn_menu100.png","4156eb94456e9b57c299ce3a5d9a3a9d"],["images/btn_menu192.png","c9557bccb062d2ac9303045057454f80"],["images/btn_menu512.png","05e3291654162be624cbd851768c8c97"],["images/next.png","e244c155d88a1346637b9e5a8be11def"],["images/previous.png","f39d2e2324fbf11b1752e78f78b79eb0"],["images/الله.psd","5ab0bab92581997e6477c3bbf962aba4"],["index.html","82d6ce2d4055e1b04b938d6e1aafcb29"],["js/script.js","5182302ea2b1313d37ea04d8b6bc83e7"],["manifest.json","e639219d64dfebd9e7ad3feed5f68778"],["package.json","84457cfb803b86aae0b934a5b60bb717"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
